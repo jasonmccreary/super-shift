@@ -1,0 +1,6 @@
+// Icon Styles
+
+.glyphicon {
+	@extend %centered;
+	color: $jungle-green;
+}

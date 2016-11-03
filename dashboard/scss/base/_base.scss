@@ -1,0 +1,28 @@
+/* Base Styles -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: $light-gray;
+  color: $body-text-gray;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $stack-open-sans;
+  letter-spacing: 1px;
+}
+
+/* Media Queries -------------------- */
+
+
+@media screen and (max-width: 767px) {
+  .table-responsive {
+      border: none;
+  }
+}

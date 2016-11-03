@@ -1,0 +1,94 @@
+.bg-jungle-green {
+  background: #27b4a8; }
+
+.white {
+  color: #fff !important; }
+
+/* Base Styles -------------------- */
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #f4f4f4;
+  color: #818181; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 1px; }
+
+/* Media Queries -------------------- */
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    border: none; } }
+.glyphicon {
+  text-align: center; }
+
+button:focus {
+  outline: none; }
+
+#nav-shift {
+  background: #27b4a8;
+  font-size: .8em;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px; }
+
+.glyphicon {
+  color: #27b4a8; }
+
+.nav {
+  padding-right: 50px; }
+
+.navbar a {
+  padding-left: 50px; }
+
+.navbar img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px; }
+
+.nav-new-shift {
+  border-radius: 5px;
+  height: 50%;
+  margin-top: 8%;
+  margin-bottom: 8%; }
+
+@media (min-width: 768px) {
+  .nav-new-shift a {
+    padding-top: 8px;
+    padding-bottom: 8px; } }
+/* Table Styles -------------------- */
+/* Dashboard Table Styles -------------------- */
+table {
+  background: #fff;
+  width: 80%; }
+
+.panel {
+  width: 80%;
+  padding-left: 0;
+  padding-right: 0;
+  border: none; }
+
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: none; }
+
+.bottom-row {
+  border-bottom: 2px solid #f4f4f4; }
+
+#shift-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  border-top: none; }
+
+.b-border {
+  border-bottom: 2px solid #ec775c; }
+
+/*# sourceMappingURL=application.css.map */

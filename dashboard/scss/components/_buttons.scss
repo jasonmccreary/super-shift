@@ -1,0 +1,13 @@
+// Button Styles
+
+button:focus {
+  outline: none;
+}
+
+#nav-shift {
+	background: $jungle-green;
+	font-size: .8em;
+	border: none;
+	padding: 8px 15px;
+	border-radius: 3px;
+}

@@ -1,0 +1,39 @@
+/* Table Styles -------------------- */
+
+
+/* Dashboard Table Styles -------------------- */
+table {
+	background: $white;
+	width: 80%;
+}
+
+.panel {
+	width: 80%;
+	padding-left: 0;
+	padding-right: 0;
+	border: none;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: none;
+}
+
+.bottom-row {
+	border-bottom: 2px solid $light-gray;
+}
+
+#shift-header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: $stack-open-sans;
+	font-size: 1.3em;
+	letter-spacing: 1px;
+	border-top: none;
+}
+
+.b-border {
+	border-bottom: 2px solid $burnt-sienna;
+}
+
+

@@ -1,0 +1,29 @@
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #000;
+$light-gray		: #f4f4f4;
+$body-text-gray	: #818181;
+$border-gray	: #dbdbdb;
+$burnt-sienna	: #ec775c;
+$jungle-green	: #27b4a8;
+
+// Functional color variables - what their function is in the design
+
+
+// Font stacks
+
+$stack-raleway   : 'Raleway', sans-serif;
+$stack-open-sans : 'Open Sans Condensed', sans-serif;
+
+// Asset paths
+
+$path-img  : '../img';
+$path-font : '../fonts';
+
+// Media query breakpoints
+
+$brk-narrow : '(max-width: 768px)';
+$brk-wide   : '(max-width: 1024px)';
+
+
