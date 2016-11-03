@@ -64,14 +64,14 @@ button:focus {
 /* Table Styles -------------------- */
 /* Dashboard Table Styles -------------------- */
 table {
-  background: #fff;
   width: 80%; }
 
 .panel {
   width: 80%;
   padding-left: 0;
   padding-right: 0;
-  border: none; }
+  border: none;
+  background: #fff; }
 
 .table > thead > tr > th {
   vertical-align: bottom;
@@ -90,5 +90,9 @@ table {
 
 .b-border {
   border-bottom: 2px solid #ec775c; }
+
+@media (max-width: 768px) {
+  .table {
+    font-size: .75em; } }
 
 /*# sourceMappingURL=application.css.map */

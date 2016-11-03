@@ -3,7 +3,7 @@
 
 /* Dashboard Table Styles -------------------- */
 table {
-	background: $white;
+	// background: $jungle-green;
 	width: 80%;
 }
 
@@ -12,6 +12,7 @@ table {
 	padding-left: 0;
 	padding-right: 0;
 	border: none;
+	background: $white;
 }
 
 .table>thead>tr>th {
@@ -34,6 +35,12 @@ table {
 
 .b-border {
 	border-bottom: 2px solid $burnt-sienna;
+}
+
+@media (max-width: 768px) {
+	.table {
+		font-size: .75em;
+	}
 }
 
 
