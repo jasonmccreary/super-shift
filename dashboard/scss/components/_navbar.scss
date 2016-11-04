@@ -1,17 +1,21 @@
 // NavBar Styles
 
-.nav {
+#navbar {
 	padding-right: 50px;
 }
 
-.navbar a{
-	padding-left: 50px;
+#nav-hamburger {
+	margin-right: 50px;
 }
 
-.navbar img {
-	width: 30px;
-	height: 30px;
-	margin-bottom: 15px;
+.navbar-header {
+	padding-left: 25px;
+}
+
+#logo {
+	width: 35px;
+	height: 35px;
+	margin-top: -5px;
 }
 
 .nav-new-shift {
@@ -25,6 +29,14 @@
 	.nav-new-shift a {
 	    padding-top: 8px;
 	    padding-bottom: 8px;
+	}
+
+	#navbar {
+		padding-right: 75px;
+	}
+
+	.navbar-header {
+		padding-left: 75px;
 	}
 }
 

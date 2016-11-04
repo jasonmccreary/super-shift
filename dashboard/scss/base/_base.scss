@@ -5,24 +5,52 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  background: $light-gray;
-  color: $body-text-gray;
+  background: $bg-light-gray;
+  color: $text-lt-gray;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: $stack-open-sans;
-  letter-spacing: 1px;
+/* Dashboard Page ------------------ */
+#dash-header {
+	padding-left: 0;
+	padding-bottom: 20px;
 }
 
-/* Media Queries -------------------- */
-
-
-@media screen and (max-width: 767px) {
-  .table-responsive {
-      border: none;
-  }
+#new-shifts-bottom {
+	width: 80%;
+	padding: 20px 0 20px;
 }
+
+/* Empty-state (Get Started page) --- */
+#get-started {
+	width: 90%;
+	background: $white;
+	padding: 50px;
+	margin-top: 25px;
+}
+
+#get-started-text {
+	text-align: justify;
+	padding-top: 8px;
+}
+
+#trucks {
+	padding-top: 20px;
+}
+
+#truck1 {
+	width: 40%;
+}
+
+#truck2 {
+	margin-left: 20px;
+	width: 40%;
+}
+
+#emptystate-button {
+	width: 80%;
+	margin-top: 25px;
+}
+
+
+
+

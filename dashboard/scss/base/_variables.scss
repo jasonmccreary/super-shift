@@ -2,10 +2,11 @@
 
 $white          : #fff;
 $black          : #000;
-$light-gray		: #f4f4f4;
-$body-text-gray	: #818181;
+$bg-light-gray	: #f4f4f4;
+$text-med-gray	: #3a3a3a;
+$text-lt-gray	: #777;
 $border-gray	: #dbdbdb;
-$burnt-sienna	: #ec775c;
+$carnation		: #f4645f;
 $jungle-green	: #27b4a8;
 
 // Functional color variables - what their function is in the design
@@ -13,8 +14,8 @@ $jungle-green	: #27b4a8;
 
 // Font stacks
 
-$stack-raleway   : 'Raleway', sans-serif;
-$stack-open-sans : 'Open Sans Condensed', sans-serif;
+$stack-miriam   : 'Miriam Libre', sans-serif;
+$stack-source-sans : 'Source Sans Pro', sans-serif;
 
 // Asset paths
 

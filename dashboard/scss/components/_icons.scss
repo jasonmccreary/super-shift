@@ -1,6 +1,23 @@
 // Icon Styles
 
-.glyphicon {
+.glyphicon-user {
+	border: 3px solid $border-gray;
+	padding: 7px;
+	margin-top: -5px
+}
+
+
+.glyphicon-repeat {
 	@extend %centered;
 	color: $jungle-green;
+}
+
+.glyphicon-remove {
+	color: $text-lt-gray;
+	border: none;
+	padding-left: 15px;
+}
+
+.icon-bar {
+	color: $white;
 }
