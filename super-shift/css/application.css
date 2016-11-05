@@ -1,0 +1,376 @@
+.bg-jungle-green {
+  background: #27b4a8; }
+
+.jungle-green-text {
+  color: #27b4a8; }
+
+.carnation-text {
+  color: #f4645f; }
+
+.white {
+  color: #fff !important; }
+
+.black {
+  color: #000; }
+
+.drk-gray {
+  color: #414448; }
+
+/* Base Styles and Div Styles-------------------- */
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #f4f4f4;
+  color: #777; }
+
+section {
+  padding-top: 15px; }
+
+.bold {
+  font-weight: 900; }
+
+/* carnation horizontal divider ---- */
+#fw-divider {
+  height: 2px;
+  border-bottom: 2px solid #f4645f; }
+
+/* Dashboard Page styles------------------ */
+#dash-header {
+  padding-left: 0;
+  padding-bottom: 20px; }
+
+#new-shifts-bottom {
+  width: 80%;
+  padding: 20px 0 20px; }
+
+/* Empty-state (Get Started page) styles--- */
+#get-started {
+  width: 90%;
+  background: #fff;
+  padding: 50px;
+  margin-top: 25px; }
+
+#get-started-text {
+  text-align: justify;
+  padding-top: 8px; }
+
+#trucks {
+  padding-top: 20px; }
+
+#truck1 {
+  width: 40%; }
+
+#truck2 {
+  margin-left: 20px;
+  width: 40%; }
+
+#emptystate-button {
+  width: 80%;
+  margin-top: 25px; }
+
+/* new-shift page styles----------------- */
+#new-shift-content {
+  background: #fff;
+  margin-top: 25px; }
+
+#proj-sect1 {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px; }
+
+#proj-sect2 {
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 20px; }
+
+#proj-sect3 {
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 20px; }
+
+#proj-sect4 {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 20px; }
+
+/* new-shift page authenticated button styles--------- */
+#authenticated {
+  font-size: .7em;
+  font-family: "Miriam Libre", sans-serif;
+  text-align: center;
+  background: #f4645f;
+  border: 1px solid #f4645f;
+  border-radius: 25px;
+  color: #fff;
+  padding: 2px 5px;
+  float: right;
+  margin-top: 20px; }
+
+#authenticated a {
+  color: #fff;
+  margin-left: 15px; }
+
+/* new-shift page checkout button div in sect4 styles --------- */
+#ck-out-button-div {
+  margin: 0 auto;
+  margin-top: 35px;
+  padding: 8px 12px; }
+
+/* new-shift price table styles --------- */
+.shift-description,
+.price {
+  padding-top: 10px; }
+
+/* new-shift media queries --------- */
+@media (max-width: 992px) {
+  #ck-out-button-div {
+    margin: 0 auto;
+    margin-top: 75px; } }
+@media (max-width: 768px) {
+  #ck-out-button-div {
+    margin: 0 auto; }
+
+  #authenticated {
+    float: left; } }
+.glyphicon-repeat {
+  text-align: center; }
+
+/* Typography Styles -------------------- */
+.miriam {
+  font-family: "Miriam Libre", sans-serif; }
+
+.source-sans {
+  font-family: "Source Sans Pro", sans-serif; }
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px; }
+
+.nav {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #3a3a3a; }
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 33px;
+  font-weight: 100;
+  color: #777; }
+
+h2 {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #777; }
+
+h3 {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #777; }
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #777; }
+
+th {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #777; }
+
+td {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #777; }
+
+.green-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: #27b4a8; }
+
+@media screen and (max-width: 768px) {
+  .table {
+    font-size: .75em; } }
+/* Button Styles ----------------- */
+.green-button {
+  background: #27b4a8;
+  color: #fff;
+  font-weight: 500;
+  font-size: .8em;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 6px 17px;
+  border: none;
+  border-radius: 3px; }
+
+.carnation-button {
+  background: #f4645f;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px; }
+
+.x-out-button {
+  background: transparent;
+  color: #777;
+  font-weight: 700;
+  font-family: "Miriam Libre", sans-serif;
+  font-size: .7em;
+  padding: 8px 15px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px; }
+
+button:focus {
+  outline: none; }
+
+/* new-shift page buttons --------- */
+#ck-out-button {
+  padding: 10px 20px; }
+
+.glyphicon-user {
+  border: 3px solid #dbdbdb;
+  padding: 7px;
+  margin-top: -5px; }
+
+.glyphicon-repeat {
+  color: #27b4a8; }
+
+.glyphicon-remove {
+  color: #777;
+  border: none;
+  padding-left: 15px; }
+
+.icon-bar {
+  color: #fff; }
+
+#navbar {
+  padding-right: 50px; }
+
+#nav-hamburger {
+  margin-right: 50px; }
+
+.navbar-header {
+  padding-left: 25px; }
+
+#logo {
+  width: 35px;
+  height: 35px;
+  margin-top: -5px; }
+
+.nav-new-shift {
+  border-radius: 5px;
+  height: 50%;
+  margin-top: 8%;
+  margin-bottom: 8%; }
+
+@media (min-width: 768px) {
+  .nav-new-shift a {
+    padding-top: 8px;
+    padding-bottom: 8px; }
+
+  #navbar {
+    padding-right: 75px; }
+
+  .navbar-header {
+    padding-left: 75px; } }
+/* Table Styles -------------------- */
+.borderless tbody tr td,
+.borderless tbody tr th,
+.borderless thead tr th,
+.borderless thead tr td,
+.borderless tfoot tr th,
+.borderless tfoot tr td {
+  border: none; }
+
+/* Dashboard Table Styles -------------------- */
+.panel {
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  background: #fff; }
+
+.panel-heading {
+  padding: 0; }
+
+.panel-heading h1 {
+  magin-top: 0; }
+
+.table > thead > tr > th, .table > tbody > tr > th {
+  vertical-align: middle;
+  border-bottom: none; }
+
+.table > thead > tr > th:first-child, .table > tbody > tr > th:first-child {
+  padding-left: 20px; }
+
+.bottom-row {
+  border-bottom: 2px solid #dbdbdb; }
+
+#shift-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  border-top: none; }
+
+.b-border {
+  border-bottom: 2px solid #f4645f; }
+
+/* get started page table styles------ */
+#shifts-radio-table > tbody > tr > td,
+#shifts-radio-table2 > tbody > tr > td {
+  padding: 0; }
+
+/* Media Queries -------------------- */
+@media (max-width: 768px) {
+  .table-responsive {
+    border: none; }
+
+  .table {
+    font-size: .75em; } }
+/* Form Styles -------------------- */
+input {
+  font-weight: 900; }
+
+#repo-select {
+  float: right;
+  margin-top: 20px; }
+
+#repo-dropdown,
+#selected-repo {
+  width: 200px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 10px;
+  font-size: 1em; }
+
+#repo-dropdown {
+  height: 33px;
+  padding: 15px; }
+
+/* Radio Styles ------- */
+#shifts-radio-table,
+#shifts-radio-table2 {
+  float: right; }
+
+@media (max-width: 768px) {
+  #repo-select {
+    float: left; }
+
+  #repo-dropdown,
+  #selected-repo {
+    margin-top: 0;
+    margin-left: 0; } }
+
+/*# sourceMappingURL=application.css.map */

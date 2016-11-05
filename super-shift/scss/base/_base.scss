@@ -1,0 +1,165 @@
+/* Base Styles and Div Styles-------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg-light-gray;
+  color: $text-lt-gray;
+}
+
+section {
+	padding-top: 15px;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+/* carnation horizontal divider ---- */
+#fw-divider {
+	height: 2px;
+	border-bottom: 2px solid $carnation;
+}
+
+/* Dashboard Page styles------------------ */
+#dash-header {
+	padding-left: 0;
+	padding-bottom: 20px;
+}
+
+#new-shifts-bottom {
+	width: 80%;
+	padding: 20px 0 20px;
+}
+
+/* Empty-state (Get Started page) styles--- */
+#get-started {
+	width: 90%;
+	background: $white;
+	padding: 50px;
+	margin-top: 25px;
+}
+
+#get-started-text {
+	text-align: justify;
+	padding-top: 8px;
+}
+
+#trucks {
+	padding-top: 20px;
+}
+
+#truck1 {
+	width: 40%;
+}
+
+#truck2 {
+	margin-left: 20px;
+	width: 40%;
+}
+
+#emptystate-button {
+	width: 80%;
+	margin-top: 25px;
+}
+
+/* new-shift page styles----------------- */
+
+#new-shift-content {
+	background: $white;
+	margin-top: 25px;
+}
+
+#proj-sect1 {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#proj-sect2 {
+	width: 95%;
+	margin: 0 auto;
+	border-bottom: 1px solid $border-gray;
+	padding-bottom: 20px;
+}
+
+#proj-sect3 {
+	width: 95%;
+	margin: 0 auto;
+	border-bottom: 1px solid $border-gray;
+	padding-bottom: 20px;
+}
+
+#proj-sect4 {
+	width: 95%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+/* new-shift page authenticated button styles--------- */
+#authenticated {
+	font-size: .7em;
+	font-family: $stack-miriam;
+	text-align: center;
+	background: $carnation;
+	border: 1px solid $carnation;
+	border-radius: 25px;
+	color: $white;
+	padding: 2px 5px;
+	float: right;
+	margin-top: 20px;
+}
+
+#authenticated a {
+	color: $white;
+	margin-left: 15px;
+}
+
+/* new-shift page checkout button div in sect4 styles --------- */
+#ck-out-button-div {
+	margin: 0 auto;
+	margin-top: 35px;
+	padding: 8px 12px;
+}
+
+/* new-shift price table styles --------- */
+.shift-description,
+.price {
+	padding-top: 10px;
+}
+
+
+/* new-shift media queries --------- */
+@media (max-width: 992px) {
+
+	#ck-out-button-div {
+		margin: 0 auto;
+		margin-top: 75px;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	#ck-out-button-div {
+		margin: 0 auto;
+	}
+
+	#authenticated {
+		float: left;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

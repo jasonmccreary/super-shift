@@ -1,0 +1,42 @@
+/* Button Styles ----------------- */
+
+.green-button {
+	background: $jungle-green;
+	color: $white;
+	font-weight: 500;
+	font-size: .8em;
+	font-family: $stack-source-sans;
+	padding: 6px 17px;
+	border: none;
+	border-radius: 3px;
+}
+
+.carnation-button {
+	background: $carnation;
+	color: $white;
+	font-weight: 500;
+	font-family: $stack-source-sans;
+	padding: 8px 15px;
+	border: none;
+	border-radius: 3px;
+}
+
+.x-out-button {
+	background: transparent;
+	color: $text-lt-gray;
+	font-weight: 700;
+	font-family: $stack-miriam;
+	font-size: .7em;
+	padding: 8px 15px;
+	border: 1px solid $border-gray;
+	border-radius: 3px;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* new-shift page buttons --------- */
+#ck-out-button {
+	padding: 10px 20px;
+}

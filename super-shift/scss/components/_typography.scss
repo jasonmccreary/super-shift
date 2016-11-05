@@ -1,0 +1,78 @@
+/* Typography Styles -------------------- */
+
+.miriam {
+	font-family: $stack-miriam;
+}
+
+.source-sans {
+	font-family: $stack-source-sans;
+}
+
+body {
+	font-family: $stack-source-sans;
+	font-size: 16px;
+}
+
+.nav {
+	font-family: $stack-source-sans;
+	font-size: 17px;
+	font-weight: 300;
+	color: $text-med-gray;
+}
+
+h1 {
+	font-family: $stack-source-sans;
+	font-size: 33px;
+	font-weight: 100;
+	color: $text-lt-gray;
+}
+
+h2 {
+	font-family: $stack-miriam;
+	font-size: 18px;
+	font-weight: 300;
+	color: $text-lt-gray;
+}
+
+h3 {
+	font-family: $stack-miriam;
+	font-size: 16px;
+	font-weight: 300;
+	color: $text-lt-gray;
+}
+
+p{
+	font-family: $stack-source-sans;
+	font-size: 14px;
+	font-weight: 300;
+	color: $text-lt-gray;
+}
+
+th {
+	font-family: $stack-miriam;
+	font-size: 14px;
+	font-weight: 300;
+	color: $text-lt-gray;
+}
+
+td {
+	font-family: $stack-source-sans;
+	font-size: 14px;
+	font-weight: 300;
+	color: $text-lt-gray;
+}
+
+.green-text {
+	font-family: $stack-source-sans;
+	font-size: 21px;
+	font-weight: 700;
+	color: $jungle-green;
+}
+
+@media screen and (max-width: 768px) {
+
+  .table {
+		font-size: .75em;
+	}
+}
+

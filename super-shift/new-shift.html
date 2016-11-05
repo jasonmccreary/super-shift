@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>Get Started</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre|Source+Sans+Pro:light" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Main CSS -->
+    <link rel="stylesheet" href="css/application.css">
+  </head>
+  
+  <body>
+  		  	
+  	<!--NavBar-->
+  	<div class="row">
+	  	<nav id="main-nav" class="navbar navbar-default" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button id="nav-hamburger" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <!--NavBar Left Logo-->
+		      <a class="navbar-brand" href="#"><img id="logo" src="img/ss-brand.png"></a>
+		    </div>
+
+		    <!-- NavBar Left Links-->
+		    <div id="navbar"class="collapse navbar-collapse">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Dashboard <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">Help Center</a></li>   
+		      </ul>
+		      
+		      <!--NavBar Right Links-->
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="nav-new-shift bg-jungle-green"><button id="nav-shift" class="green-button" href="#">New Shift</button></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span><span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Profile</a></li>
+		            <li><a href="#">Account</a></li>
+		            <li><a href="#">Settings</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">LogOut</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</div><!--end nav row-->
+
+	<div id="wrapper" class="container">
+
+		<div  class="row">	
+			<div id="get-started-header" class="col-xs-12">
+				<h1>Start A New Shift</h1>
+			</div>
+		</div><!--end get-started-header-->
+
+		<div class="row">
+
+			<div id="new-shift-content" class="container">
+				
+				<!-- Section 1 - Project -->
+				<section id="proj-sect1" class="row">	
+					
+					<div class="col-sm-3"><h2>Project</h2></div>
+
+					<div class="col-sm-9">
+						<button id="authenticated">Authenticated to Github as: jackmcdade <a href="#">x</a></button>
+					</div><!--end authenicated-->
+
+				
+				</section><!--end s1 row-->
+
+				<!--carnation divider-->
+				<div id="fw-divider" class="row"></div>
+
+				<!-- Section 2 - Github Repo -->
+				<section id="proj-sect2" class="row">
+					
+					<div class="col-sm-3">
+						<h3>Github Repository</h3>
+						<p>Which repository and branch should we run a shift on?</p>
+					</div><!--end col-md-8-->
+
+					<div class="col-sm-9">
+						<form id="repo-select" class="form-inline" role="form">
+							<fieldset>
+								<div class="form-group">
+									<select id="repo-dropdown" size="1">
+										<option selected>Mouthnasium</option>
+										<option value="afr">option2</option>
+										<option value="ant">option3</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<input type="textarea" class="form-control" id="selected-repo" placeholder="master">
+								</div>
+							</fieldset>
+						</form>
+					</div><!--end authenicated-->
+				
+				</section><!--end s2 row-->
+
+				<!-- Section 3 - Shift Selection | Tables for Shift Selection Forms -->
+				<section id="proj-sect3" class="row">
+					
+					<div class="col-sm-3">
+						<h3>Shift Selection</h3>
+						<p>Pick your shift. It doesn't hurt to double-check your project first.</p>
+					</div><!--end col-md-8-->
+
+					<!-- table 1 for Laravel Shift Selection Radios-->
+					<div class="col-sm-8 col-sm-push-1">
+
+						<table id="shifts-radio-table" class="table borderless table-responsive">
+							<form id="shifts-radios" role="form">
+								<fieldset>
+								
+									<div class="form-group">
+										<label class="control-label"><h3>Laravel Shifts</h3></label>
+							
+										<tbody>
+											<tr>
+												<td>
+													<div id="option1" class="radio">
+														<label class="miriam drk-gray bold">
+														<input type="radio" name="roomtype" value="5.2-5.3">
+														5.2 &rarr; 5.3</label>
+													</div>
+												</td>
+												<td>
+													<p class="shift-description">Authentication, middleware, configuration, and more</p>
+												</td>
+												<td class="text-center"><p class="price jungle-green-text bold">$9</p></td>
+											</tr>
+
+											<tr>
+												<td>
+													<div id="option2" class="radio">
+														<label class="miriam drk-gray bold">
+														<input type="radio" name="roomtype" value="5.1-5.2">
+														5.1 &rarr; 5.2</label>
+													</div>
+												</td>
+												<td>
+													<p class="shift-description">Authentication, middleware, configuration, and more</p>
+												</td>
+												<td class="text-center"><p class="price jungle-green-text bold">$11</p></td>
+											</tr>
+
+											<tr>
+												<td>
+													<div id="option3" class="radio">
+														<label class="miriam drk-gray bold">
+														<input type="radio" name="roomtype" value="5.0-5.1">
+														5.0 &rarr; 5.1</label>
+													</div>
+												</td>
+												<td>
+													<p class="shift-description">PSR-2 code style, authentication, folder structure, and more</p>
+												</td>
+												<td class="text-center"><p class="price jungle-green-text bold">$13</p></td>
+											</tr>
+
+											<tr>
+												<td>
+													<div id="option4" class="radio">
+														<label class="miriam drk-gray bold">
+														<input type="radio" name="roomtype" value="4.2-5.0">
+														4.2 &rarr; 5.0</label>
+													</div>
+												</td>
+												<td>
+													<p class="shift-description">Folder structure, namespaces blade tags, and more</p>
+												</td>
+												<td class="text-center"><p class="price jungle-green-text bold">$19</p></td>
+											</tr>
+
+											<tr>
+												<td>
+													<div id="option5" class="radio">
+														<label class="miriam drk-gray bold">
+														<input type="radio" name="roomtype" value="Lint">
+														Lint</label>
+													</div>
+												</td>
+												<td>
+													<p class="shift-description">Lint your deprecations, removes, enhancements, and more</p>
+												</td>
+												<td class="text-center"><p class="price jungle-green-text bold">$3</p></td>
+											</tr>
+										
+										</tbody>
+									</div><!--end form group div-->
+
+								</fieldset>
+							</form><!--end shifts-radios-->
+						</table><!--end shifts radio table-->
+
+						<!-- table 2 for Micro Shift Selection Radios-->
+						<table id="shifts-radio-table2" class="table borderless table-responsive">
+							<form id="micro-shifts-radios" role="form">
+								<fieldset>
+								
+									<div class="form-group">
+							
+										<tbody>
+
+											<tr>
+												<td>
+													<label class="control-label"><h3>Micro Shifts</h3></label>
+												</td>
+											</tr>
+
+											<tr>
+												<td>
+													<div id="option6" class="radio">
+														<label class="miriam drk-gray bold">
+														<input type="radio" name="roomtype" value="5.2-5.3">
+														Namespaces</label>
+													</div>
+												</td>
+												<td>
+													<p class="shift-description">PSR-0, PSR-2, update references, and more</p>
+												</td>
+												<td class="text-center"><p class="price jungle-green-text bold">$3</p></td>
+											</tr>
+
+										
+										</tbody>
+									</div><!--end form group div-->
+
+								</fieldset>
+							</form><!--end shifts-radios-->
+						</table><!--end shifts radio table-->
+					</div><!--end col-sm-9 div-->
+
+				</section><!--end s3 row-->	
+
+				<!-- Section 4 - Checkout and Begin -->
+				<section id="proj-sect4" class="row">
+					
+					<div class="col-sm-3">
+						<h3>Checkout and Begin Shift</h3>
+						<p>Once you pay for your shift, it's all automated from here on out.</p>
+					</div><!--end col-md-8-->
+
+					<div id="ck-out-button-div" class="col-sm-8 col-sm-push-1">
+						<button id="ck-out-button" class="green-button">Checkout and Begin</button>
+					</div><!--end row emptystate-button-->
+				
+				</section><!--end s4 row-->
+			
+			</div><!--end new-shif-content div-->
+		</div><!--end row container-->
+	
+	</div><!--end wrapper div-->
+ 	
+ 	<!-- jQuery -->
+    <script
+	  src="https://code.jquery.com/jquery-3.1.1.min.js"
+	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	  crossorigin="anonymous">
+	</script>
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </body>
+</html>

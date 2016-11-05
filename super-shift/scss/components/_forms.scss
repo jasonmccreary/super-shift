@@ -1,0 +1,45 @@
+/* Form Styles -------------------- */
+
+input {
+	font-weight: 900;
+}
+
+#repo-select {
+	float: right;
+	margin-top: 20px;
+}
+
+#repo-dropdown, 
+#selected-repo {
+	width: 200px;
+	height: 35px;
+	margin-top: 25px;
+	margin-left: 10px;
+	font-size: 1em;
+}
+
+#repo-dropdown {
+	height: 33px;
+	padding: 15px;
+}
+
+/* Radio Styles ------- */
+
+#shifts-radio-table,
+#shifts-radio-table2 {
+	float: right;
+}
+
+@media (max-width: 768px) {
+
+	#repo-select {
+		float: left;
+	}
+
+	#repo-dropdown, 
+	#selected-repo {
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+}
