@@ -1,0 +1,177 @@
+/* home page styles------------------ */
+
+#header-content-wrapper {
+	width: 100%;
+}
+
+#home-header {
+	color: $white;
+	text-align: center;
+	padding: 20px 25px 50px 25px;
+}
+/* right nav to github------- */
+#nav-github ul {
+	float: right;
+}
+
+#nav-github li {
+	display: inline-block;
+	float: left;
+}
+
+#nav-github p {
+	font-size: 0.7em;
+	letter-spacing: 1.5px;
+	margin-top: 7px;
+	padding-right: 10px;
+}
+
+#shift-logo {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	font-size: 3em;
+}
+
+.home-header-text {
+	text-shadow: 1px 1px $carnation-line;
+	letter-spacing: 1px;
+}
+
+.sim-bold {
+	text-shadow: 1px 1px $white;
+}
+
+/* shifty squares styles------------------ */
+
+/* ul square styles------- */
+#ul-squares-wrapper {
+	text-align: center;
+}
+
+#shift-squares-list {
+	display: inline-block;
+	margin-bottom: 75px;
+}
+
+#shift-squares-list li {
+	text-align: center;
+	display: inline-block;
+	padding-right: 10px;
+}
+
+#shift-squares-list:first-child {
+	padding: 0;
+}
+
+.squares {
+	width: 85px;
+	height: 85px;
+	text-shadow: 0 0 $carnation-line;
+	background: $white;
+	border-radius: 3px;
+	padding: 0 15px 3px;
+}
+
+//squares box shadow
+.squares {
+	/* 50% black box shadow */
+	-webkit-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.numbers {
+	font-size: 2.4em;
+	line-height: 1.0;
+	color: $carnation;
+}
+
+.laravel {
+	font-size: 0.8em;
+	color: $carnation;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+.dash-line {
+	padding-top: 0;
+	text-shadow: -10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.minus-margin {
+	margin-top: -25px;
+	font-size: 0.50em;
+	letter-spacing: 1px;
+}
+
+/* home media queries --------- */
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+	.squares {
+		width: 55px;
+		height: 55px;
+	}
+
+	.numbers {
+		font-size: 1em;
+	}
+
+	.laravel {
+		font-size: 0.5em;
+		padding-top: 10px;
+		margin-bottom: 0;
+	}
+
+}
+
+@media (max-width: 480px) {
+
+	.squares {
+		width: 40px;
+		height: 40px;
+		padding: 0;
+	}
+
+	.numbers {
+		font-size: 0.75em;
+	}
+
+	.laravel {
+		font-size: 0.5em;
+		padding-top: 5px;
+	}
+
+}
+
+@media (max-width: 320px) {
+
+	.squares {
+		width: 30px;
+		height: 30px;
+		padding: 0;
+	}
+
+	.numbers {
+		font-size: 0.7em;
+	}
+
+	.laravel {
+		font-size: 0.4em;
+		padding-top: 5px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

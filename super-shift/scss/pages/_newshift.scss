@@ -1,0 +1,88 @@
+/* new-shift page styles----------------- */
+
+#new-shift-content {
+	background: $white;
+	margin-top: 25px;
+}
+
+#proj-sect1 {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#proj-sect2 {
+	width: 95%;
+	margin: 0 auto;
+	border-bottom: 1px solid $border-gray;
+	padding-bottom: 20px;
+}
+
+#proj-sect3 {
+	width: 95%;
+	margin: 0 auto;
+	border-bottom: 1px solid $border-gray;
+	padding-bottom: 20px;
+}
+
+#proj-sect4 {
+	width: 95%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+/* new-shift page authenticated button styles--------- */
+#authenticated {
+	font-size: .7em;
+	font-family: $stack-miriam;
+	text-align: center;
+	background: $carnation;
+	border: 1px solid $carnation;
+	border-radius: 25px;
+	color: $white;
+	padding: 2px 5px;
+	float: right;
+	margin-top: 20px;
+}
+
+#authenticated a {
+	color: $white;
+	margin-left: 15px;
+}
+
+/* new-shift page checkout button div in sect4 styles --------- */
+#ck-out-button-div {
+	margin: 0 auto;
+	margin-top: 35px;
+	padding: 8px 12px;
+}
+
+/* new-shift price table styles --------- */
+.shift-description,
+.price {
+	padding-top: 10px;
+}
+
+
+/* new-shift media queries --------- */
+@media (max-width: 992px) {
+
+	#ck-out-button-div {
+		margin: 0 auto;
+		margin-top: 75px;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	#ck-out-button-div {
+		margin: 0 auto;
+	}
+
+	#authenticated {
+		float: left;
+	}
+
+}

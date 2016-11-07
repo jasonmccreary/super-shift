@@ -1,8 +1,8 @@
 // ==========================================================================
-// Global Imports
+// Page Imports
 // ==========================================================================
 
-@import 'base/index';
-@import 'pages/index';
-@import 'layout/index';
-@import 'components/index';
+@import 'home';
+@import 'dashboard';
+@import 'emptystate';
+@import 'newshift';

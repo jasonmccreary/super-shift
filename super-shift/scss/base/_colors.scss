@@ -1,4 +1,4 @@
-// Color Classes
+// color classes
 
 .bg-jungle-green {
 	background: $jungle-green;
@@ -9,7 +9,7 @@
 }
 
 .carnation-text {
-	color: $carnation;
+	color: $carnation !important;
 }
 
 .white {
@@ -23,3 +23,45 @@
 .drk-gray {
 	color: $text-drk-gray;
 }
+
+.carnation-gradient {
+    background: $porsche; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($porsche, $carnation 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($porsche, $carnation 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($porsche, $carnation 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($porsche, $carnation 50%); /* Standard syntax */
+}
+
+// opacity classes
+
+.fifty-op {
+	opacity: 0.25;
+}
+
+.seventy-op {
+	opacity: 0.70;
+}
+
+.ninety-op {
+	opacity: 0.90;
+}
+
+.one-hundred-op {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

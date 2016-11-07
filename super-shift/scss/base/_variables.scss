@@ -1,4 +1,4 @@
-// Descriptive color variables
+// descriptive color variables
 
 $white          : #fff;
 $black          : #000;
@@ -7,23 +7,25 @@ $text-drk-gray	: #414448;
 $text-med-gray	: #3a3a3a;
 $text-lt-gray	: #777;
 $border-gray	: #dbdbdb;
-$carnation		: #f4645f;
 $jungle-green	: #27b4a8;
+$carnation		: #f4645f;
+$porsche		: #e87f5a;  //for use with carnation-gradient
+$carnation-line	: #f3423b;  //for text-shadows with carnation
 
-// Functional color variables - what their function is in the design
+// functional color variables - what their function is in the design
 
 
-// Font stacks
+// font stacks
 
 $stack-miriam   : 'Miriam Libre', sans-serif;
 $stack-source-sans : 'Source Sans Pro', sans-serif;
 
-// Asset paths
+// asset paths
 
 $path-img  : '../img';
 $path-font : '../fonts';
 
-// Media query breakpoints
+// media query breakpoints
 
 $brk-narrow : '(max-width: 768px)';
 $brk-wide   : '(max-width: 1024px)';

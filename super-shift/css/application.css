@@ -5,7 +5,7 @@
   color: #27b4a8; }
 
 .carnation-text {
-  color: #f4645f; }
+  color: #f4645f !important; }
 
 .white {
   color: #fff !important; }
@@ -16,7 +16,31 @@
 .drk-gray {
   color: #414448; }
 
-/* Base Styles and Div Styles-------------------- */
+.carnation-gradient {
+  background: #e87f5a;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#e87f5a, #f4645f 50%);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e87f5a, #f4645f 50%);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e87f5a, #f4645f 50%);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e87f5a, #f4645f 50%);
+  /* Standard syntax */ }
+
+.fifty-op {
+  opacity: 0.25; }
+
+.seventy-op {
+  opacity: 0.70; }
+
+.ninety-op {
+  opacity: 0.90; }
+
+.one-hundred-op {
+  opacity: 1; }
+
+/* base styles------------------- */
 * {
   box-sizing: border-box; }
 
@@ -27,15 +51,144 @@ body {
 section {
   padding-top: 15px; }
 
+ul {
+  list-style: none; }
+
 .bold {
   font-weight: 900; }
+
+.letter-sp-1 {
+  letter-spacing: 1px; }
 
 /* carnation horizontal divider ---- */
 #fw-divider {
   height: 2px;
   border-bottom: 2px solid #f4645f; }
 
-/* Dashboard Page styles------------------ */
+/* home page styles------------------ */
+#header-content-wrapper {
+  width: 100%; }
+
+#home-header {
+  color: #fff;
+  text-align: center;
+  padding: 20px 25px 50px 25px; }
+
+/* right nav to github------- */
+#nav-github ul {
+  float: right; }
+
+#nav-github li {
+  display: inline-block;
+  float: left; }
+
+#nav-github p {
+  font-size: 0.7em;
+  letter-spacing: 1.5px;
+  margin-top: 7px;
+  padding-right: 10px; }
+
+#shift-logo {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 3em; }
+
+.home-header-text {
+  text-shadow: 1px 1px #f3423b;
+  letter-spacing: 1px; }
+
+.sim-bold {
+  text-shadow: 1px 1px #fff; }
+
+/* shifty squares styles------------------ */
+/* ul square styles------- */
+#ul-squares-wrapper {
+  text-align: center; }
+
+#shift-squares-list {
+  display: inline-block;
+  margin-bottom: 75px; }
+
+#shift-squares-list li {
+  text-align: center;
+  display: inline-block;
+  padding-right: 10px; }
+
+#shift-squares-list:first-child {
+  padding: 0; }
+
+.squares {
+  width: 85px;
+  height: 85px;
+  text-shadow: 0 0 #f3423b;
+  background: #fff;
+  border-radius: 3px;
+  padding: 0 15px 3px; }
+
+.squares {
+  /* 50% black box shadow */
+  -webkit-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2); }
+
+.numbers {
+  font-size: 2.4em;
+  line-height: 1.0;
+  color: #f4645f; }
+
+.laravel {
+  font-size: 0.8em;
+  color: #f4645f;
+  padding-top: 10px;
+  margin-bottom: 0; }
+
+.dash-line {
+  padding-top: 0;
+  text-shadow: -10px 10px rgba(0, 0, 0, 0.2); }
+
+.minus-margin {
+  margin-top: -25px;
+  font-size: 0.50em;
+  letter-spacing: 1px; }
+
+/* home media queries --------- */
+@media (max-width: 768px) {
+  .squares {
+    width: 55px;
+    height: 55px; }
+
+  .numbers {
+    font-size: 1em; }
+
+  .laravel {
+    font-size: 0.5em;
+    padding-top: 10px;
+    margin-bottom: 0; } }
+@media (max-width: 480px) {
+  .squares {
+    width: 40px;
+    height: 40px;
+    padding: 0; }
+
+  .numbers {
+    font-size: 0.75em; }
+
+  .laravel {
+    font-size: 0.5em;
+    padding-top: 5px; } }
+@media (max-width: 320px) {
+  .squares {
+    width: 30px;
+    height: 30px;
+    padding: 0; }
+
+  .numbers {
+    font-size: 0.7em; }
+
+  .laravel {
+    font-size: 0.4em;
+    padding-top: 5px; } }
+/* dashboard page styles------------------ */
 #dash-header {
   padding-left: 0;
   padding-bottom: 20px; }
@@ -44,7 +197,7 @@ section {
   width: 80%;
   padding: 20px 0 20px; }
 
-/* Empty-state (Get Started page) styles--- */
+/* empty-state (get started page) styles--- */
 #get-started {
   width: 90%;
   background: #fff;
@@ -139,7 +292,7 @@ section {
 .glyphicon-repeat {
   text-align: center; }
 
-/* Typography Styles -------------------- */
+/* typography styles -------------------- */
 .miriam {
   font-family: "Miriam Libre", sans-serif; }
 
@@ -201,7 +354,7 @@ td {
 @media screen and (max-width: 768px) {
   .table {
     font-size: .75em; } }
-/* Button Styles ----------------- */
+/* button styles ----------------- */
 .green-button {
   background: #27b4a8;
   color: #fff;
@@ -210,7 +363,8 @@ td {
   font-family: "Source Sans Pro", sans-serif;
   padding: 6px 17px;
   border: none;
-  border-radius: 3px; }
+  border-radius: 3px;
+  letter-spacing: 1px; }
 
 .carnation-button {
   background: #f4645f;
@@ -234,6 +388,10 @@ td {
 button:focus {
   outline: none; }
 
+/* dashboard page buttons --------- */
+#new-shift-button {
+  cursor: initial; }
+
 /* new-shift page buttons --------- */
 #ck-out-button {
   padding: 10px 20px; }
@@ -253,6 +411,9 @@ button:focus {
 
 .icon-bar {
   color: #fff; }
+
+.fa-github {
+  font-size: 1.5em; }
 
 #navbar {
   padding-right: 50px; }
@@ -284,7 +445,7 @@ button:focus {
 
   .navbar-header {
     padding-left: 75px; } }
-/* Table Styles -------------------- */
+/* table styles -------------------- */
 .borderless tbody tr td,
 .borderless tbody tr th,
 .borderless thead tr th,
@@ -293,7 +454,7 @@ button:focus {
 .borderless tfoot tr td {
   border: none; }
 
-/* Dashboard Table Styles -------------------- */
+/* dashboard table styles -------------------- */
 .panel {
   padding-left: 0;
   padding-right: 0;
@@ -332,14 +493,14 @@ button:focus {
 #shifts-radio-table2 > tbody > tr > td {
   padding: 0; }
 
-/* Media Queries -------------------- */
+/* media queries -------------------- */
 @media (max-width: 768px) {
   .table-responsive {
     border: none; }
 
   .table {
     font-size: .75em; } }
-/* Form Styles -------------------- */
+/* form styles -------------------- */
 input {
   font-weight: 900; }
 
@@ -359,7 +520,7 @@ input {
   height: 33px;
   padding: 15px; }
 
-/* Radio Styles ------- */
+/* radio styles ------- */
 #shifts-radio-table,
 #shifts-radio-table2 {
   float: right; }

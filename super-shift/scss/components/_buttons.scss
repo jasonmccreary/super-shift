@@ -1,4 +1,4 @@
-/* Button Styles ----------------- */
+/* button styles ----------------- */
 
 .green-button {
 	background: $jungle-green;
@@ -9,6 +9,7 @@
 	padding: 6px 17px;
 	border: none;
 	border-radius: 3px;
+	letter-spacing: 1px;
 }
 
 .carnation-button {
@@ -34,6 +35,11 @@
 
 button:focus {
   outline: none;
+}
+
+/* dashboard page buttons --------- */
+#new-shift-button {
+	cursor: initial;
 }
 
 /* new-shift page buttons --------- */
