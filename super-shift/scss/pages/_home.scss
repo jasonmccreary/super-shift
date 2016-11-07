@@ -28,17 +28,22 @@
 
 #shift-logo {
 	padding-top: 50px;
-	padding-bottom: 10px;
-	font-size: 3em;
+	font-size: 72px;
+	font-weight: 200;
+	letter-spacing: 5px;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+	text-shadow: 0 1px #f4645f,-1px 0 #f3bd92,-1px 2px 
+	#f4645f,-2px 1px #f3bd92,-2px 3px #f4645f,-3px 2px 
+	#f3bd92,-3px 4px #f4645f,-4px 3px #f3bd92,-4px 5px 
+	#f4645f,-5px 4px #f3bd92,-5px 6px #f4645f,-6px 5px 
+	#f3bd92,-6px 7px #f4645f,-7px 6px #f3bd92,-7px 8px 
+	#f4645f,-8px 7px #f3bd92;
 }
 
 .home-header-text {
 	text-shadow: 1px 1px $carnation-line;
 	letter-spacing: 1px;
-}
-
-.sim-bold {
-	text-shadow: 1px 1px $white;
 }
 
 /* shifty squares styles------------------ */

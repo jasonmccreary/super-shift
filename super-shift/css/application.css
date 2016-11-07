@@ -54,6 +54,13 @@ section {
 ul {
   list-style: none; }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 100;
+  line-height: 1.1;
+  color: inherit;
+  letter-spacing: 1px; }
+
 .bold {
   font-weight: 900; }
 
@@ -90,15 +97,16 @@ ul {
 
 #shift-logo {
   padding-top: 50px;
-  padding-bottom: 10px;
-  font-size: 3em; }
+  font-size: 72px;
+  font-weight: 200;
+  letter-spacing: 5px;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  text-shadow: 0 1px #f4645f,-1px 0 #f3bd92,-1px 2px  #f4645f,-2px 1px #f3bd92,-2px 3px #f4645f,-3px 2px  #f3bd92,-3px 4px #f4645f,-4px 3px #f3bd92,-4px 5px  #f4645f,-5px 4px #f3bd92,-5px 6px #f4645f,-6px 5px  #f3bd92,-6px 7px #f4645f,-7px 6px #f3bd92,-7px 8px  #f4645f,-8px 7px #f3bd92; }
 
 .home-header-text {
   text-shadow: 1px 1px #f3423b;
   letter-spacing: 1px; }
-
-.sim-bold {
-  text-shadow: 1px 1px #fff; }
 
 /* shifty squares styles------------------ */
 /* ul square styles------- */
@@ -206,7 +214,8 @@ ul {
 
 #get-started-text {
   text-align: justify;
-  padding-top: 8px; }
+  padding-top: 8px;
+  padding-right: 30px; }
 
 #trucks {
   padding-top: 20px; }
@@ -222,6 +231,9 @@ ul {
   width: 80%;
   margin-top: 25px; }
 
+@media (max-width: 768px) {
+  #get-started-text {
+    padding-right: 0; } }
 /* new-shift page styles----------------- */
 #new-shift-content {
   background: #fff;
@@ -274,9 +286,11 @@ ul {
   padding: 8px 12px; }
 
 /* new-shift price table styles --------- */
-.shift-description,
 .price {
   padding-top: 10px; }
+
+.shift-description {
+  padding: 10px 3px 0; }
 
 /* new-shift media queries --------- */
 @media (max-width: 992px) {
@@ -292,68 +306,6 @@ ul {
 .glyphicon-repeat {
   text-align: center; }
 
-/* typography styles -------------------- */
-.miriam {
-  font-family: "Miriam Libre", sans-serif; }
-
-.source-sans {
-  font-family: "Source Sans Pro", sans-serif; }
-
-body {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 16px; }
-
-.nav {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 17px;
-  font-weight: 300;
-  color: #3a3a3a; }
-
-h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 33px;
-  font-weight: 100;
-  color: #777; }
-
-h2 {
-  font-family: "Miriam Libre", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  color: #777; }
-
-h3 {
-  font-family: "Miriam Libre", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: #777; }
-
-p {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  color: #777; }
-
-th {
-  font-family: "Miriam Libre", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  color: #777; }
-
-td {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  color: #777; }
-
-.green-text {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-  color: #27b4a8; }
-
-@media screen and (max-width: 768px) {
-  .table {
-    font-size: .75em; } }
 /* button styles ----------------- */
 .green-button {
   background: #27b4a8;
