@@ -1,9 +1,5 @@
 /* home page styles------------------ */
 
-#header-content-wrapper {
-	width: 100%;
-}
-
 #home-header {
 	color: $white;
 	text-align: center;
@@ -42,7 +38,7 @@
 }
 
 .home-header-text {
-	text-shadow: 1px 1px $carnation-line;
+	text-shadow: 1px 1px $carnation-lt;
 	letter-spacing: 1px;
 }
 
@@ -71,7 +67,7 @@
 .squares {
 	width: 85px;
 	height: 85px;
-	text-shadow: 0 0 $carnation-line;
+	text-shadow: 0 0 $carnation-lt;
 	background: $white;
 	border-radius: 3px;
 	padding: 0 15px 3px;
@@ -100,7 +96,7 @@
 
 .dash-line {
 	padding-top: 0;
-	text-shadow: -10px 10px rgba(0, 0, 0, 0.2);
+	text-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .minus-margin {

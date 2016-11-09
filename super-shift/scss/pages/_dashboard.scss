@@ -5,6 +5,41 @@
 }
 
 #new-shifts-bottom {
-	width: 80%;
 	padding: 20px 0 20px;
+}
+
+#dash-table td {
+	font-size: 14px;
+}
+
+#dash-table tr > *:nth-child(1) {
+	width: 40%;
+}
+
+#dash-table tr > *:nth-child(2) {
+	width: 40%;
+	padding-left: 80px;
+}
+
+#dash-table tr > *:nth-child(3) {
+	width: 40%;
+}
+
+#dash-table tr > *:nth-child(4) {
+	width: 40%;
+}
+
+/* dashboard page media query styles------------------ */
+
+@media (max-width: 768px) {
+
+	#dash-table tr > *:nth-child(2) {
+	    padding-left: 50px;
+	    padding-right: 10px;
+	}
+
+	#dash-table td {
+	font-size: 1em;
+}
+
 }

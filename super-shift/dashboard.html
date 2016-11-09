@@ -9,6 +9,7 @@
 
 	<!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/f78da8f1d5.js"></script>
 
 	<!-- Latest compiled and minified CSS -->
@@ -32,7 +33,7 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      <!--NavBar Left Logo-->
-		      <a class="navbar-brand" href="#"><img id="logo" src="img/ss-brand.png"></a>
+		      <div><a class="navbar-brand" href="#"><h3 id="S-logo">S</h3></a></div>
 		    </div>
 
 		    <!-- NavBar Left Links-->
@@ -66,15 +67,15 @@
 	    <!-- Shifts Table -->
 		<div id="shift-table" class="row">
 			
-			<div id="dash-header" class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+			<div id="dash-header" class="col-xs-12 col-sm-10 col-sm-offset-1">
 				<h1>Latest Activity</h1>
 			</div>
-			<div class="container panel panel-default col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-				<table class="table table-responsive">
+			<div class="container panel panel-default col-xs-12 col-sm-10 col-sm-offset-1">
+				<table id="dash-table" class="table table-responsive">
 					
-					<thead class="b-border"><th id="shift-header" class="b-border"><h2>Shifts</h2></th></thead>
-					<thead>
-						<tr>
+					<thead class="b-border dash-table-head"><th id="shift-header" class="b-border"><h2>Shifts</h2></th></thead>
+					<thead class="dash-table-head">
+						<tr class="miriam lt-gray">
 							<th>Project Repo</th>
 							<th>Shift</th>
 							<th>Date</th>
@@ -82,7 +83,7 @@
 						</tr>
 					</thead>
 					
-					<tbody>
+					<tbody id="dash-table-body">
 						<tr>
 							<th scope="row" class="carnation-text">statamic/mouthnasium</th>
 							<td>Laravel 5.1</td>

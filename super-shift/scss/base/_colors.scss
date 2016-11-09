@@ -24,12 +24,20 @@
 	color: $text-drk-gray;
 }
 
+.lt-gray {
+	color: $text-lt-gray;
+}
+
+.ltr-gray {
+	color: $text-ltr-gray;
+}
+
 .carnation-gradient {
     background: $porsche; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient($porsche, $carnation 50%); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient($porsche, $carnation 50%); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient($porsche, $carnation 50%); /* For Firefox 3.6 to 15 */
-    background: linear-gradient($porsche, $carnation 50%); /* Standard syntax */
+    background: -webkit-linear-gradient($porsche, $carnation-drk 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($porsche, $carnation-drk 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($porsche, $carnation-drk 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($porsche, $carnation-drk 50%); /* Standard syntax */
 }
 
 // opacity classes

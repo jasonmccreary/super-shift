@@ -4,13 +4,15 @@ $white          : #fff;
 $black          : #000;
 $bg-light-gray	: #f4f4f4;
 $text-drk-gray	: #414448;
-$text-med-gray	: #3a3a3a;
-$text-lt-gray	: #777;
-$border-gray	: #dbdbdb;
-$jungle-green	: #27b4a8;
-$carnation		: #f4645f;
-$porsche		: #e87f5a;  //for use with carnation-gradient
-$carnation-line	: #f3423b;  //for text-shadows with carnation
+$text-med-gray	: #3a3a3a; 	//miriam libre & source sans pro light headers
+$text-lt-gray		: #777; 		//source sans table paragraphs
+$text-ltr-gray	: #a6a6a6;	//lightest gray text for paragraphs
+$border-gray		: #dbdbdb;	
+$jungle-green		: #27b4a8;  // source sans green
+$carnation   		: #f4645f;
+$carnation-drk	: #f4645f; 	//source sans carnation (orange)
+$porsche				: #e87f5a;  //for use with carnation-gradient
+$carnation-lt		: #f3423b;  //for text-shadows with carnation
 
 // functional color variables - what their function is in the design
 

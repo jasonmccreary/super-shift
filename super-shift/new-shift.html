@@ -9,6 +9,7 @@
 
 	<!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/f78da8f1d5.js"></script>
 
 	<!-- Latest compiled and minified CSS -->
@@ -32,7 +33,7 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      <!--NavBar Left Logo-->
-		      <a class="navbar-brand" href="#"><img id="logo" src="img/ss-brand.png"></a>
+		      <div><a class="navbar-brand" href="#"><h3 id="S-logo">S</h3></a></div>
 		    </div>
 
 		    <!-- NavBar Left Links-->
@@ -125,7 +126,7 @@
 					</div><!--end col-md-8-->
 
 					<!-- table 1 for Laravel Shift Selection Radios-->
-					<div class="col-sm-8 col-sm-push-1">
+					<div id="laravel-shifts" class="col-sm-9">
 
 						<table id="shifts-radio-table" class="table borderless table-responsive">
 							<form id="shifts-radios" role="form">
@@ -140,7 +141,7 @@
 													<div id="option1" class="radio">
 														<label class="miriam drk-gray bold">
 														<input type="radio" name="roomtype" value="5.2-5.3">
-														5.2 &rarr; 5.3</label>
+														5.2 <i class="fa fa-arrow-right" aria-hidden="true"></i> 5.3</label>
 													</div>
 												</td>
 												<td>
@@ -154,7 +155,7 @@
 													<div id="option2" class="radio">
 														<label class="miriam drk-gray bold">
 														<input type="radio" name="roomtype" value="5.1-5.2">
-														5.1 &rarr; 5.2</label>
+														5.1 <i class="fa fa-arrow-right" aria-hidden="true"></i> 5.2</label>
 													</div>
 												</td>
 												<td>
@@ -168,7 +169,7 @@
 													<div id="option3" class="radio">
 														<label class="miriam drk-gray bold">
 														<input type="radio" name="roomtype" value="5.0-5.1">
-														5.0 &rarr; 5.1</label>
+														5.0 <i class="fa fa-arrow-right" aria-hidden="true"></i> 5.1</label>
 													</div>
 												</td>
 												<td>
@@ -182,7 +183,7 @@
 													<div id="option4" class="radio">
 														<label class="miriam drk-gray bold">
 														<input type="radio" name="roomtype" value="4.2-5.0">
-														4.2 &rarr; 5.0</label>
+														4.2 <i class="fa fa-arrow-right" aria-hidden="true"></i> 5.0</label>
 													</div>
 												</td>
 												<td>
@@ -260,7 +261,7 @@
 						<p>Once you pay for your shift, it's all automated from here on out.</p>
 					</div><!--end col-md-8-->
 
-					<div id="ck-out-button-div" class="col-sm-8 col-sm-push-1">
+					<div id="ck-out-button-div" class="col-sm-9">
 						<button id="ck-out-button" class="green-button">Checkout and Begin</button>
 					</div><!--end row emptystate-button-->
 				

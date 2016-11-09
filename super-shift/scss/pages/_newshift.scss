@@ -1,4 +1,7 @@
 /* new-shift page styles----------------- */
+#new-shift-main-header {
+	padding-left: 0;
+}
 
 #new-shift-content {
 	background: $white;
@@ -55,16 +58,28 @@
 #ck-out-button-div {
 	margin: 0 auto;
 	margin-top: 35px;
-	padding: 8px 12px;
+	padding: 8px 12px 8px 50px;
 }
 
-/* new-shift price table styles --------- */
+/* new-shift laravel shifts div and price table styles --------- */
+input[type=radio] {
+    margin: 2px 0 0;
+}
+
+#laravel-shifts {
+	float: right;
+	padding-left: 50px;
+}
+
 .price {
 	padding-top: 10px;
 }
 
 .shift-description {
-	padding: 10px 3px 0; 
+	font-family: $stack-source-sans;
+	font-size: 14px;
+	color: $text-ltr-gray;
+	padding: 8px 0 0 10px; 
 }
 
 
@@ -74,6 +89,7 @@
 	#ck-out-button-div {
 		margin: 0 auto;
 		margin-top: 75px;
+		padding-left: 15px
 	}
 
 }
@@ -87,5 +103,11 @@
 	#authenticated {
 		float: left;
 	}
+
+	#laravel-shifts {
+	float: left;
+	padding-left: 15px;
+}
+
 
 }

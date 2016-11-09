@@ -1,5 +1,4 @@
 /* typography styles -------------------- */
-
 .miriam {
 	font-family: $stack-miriam;
 }
@@ -8,8 +7,53 @@
 	font-family: $stack-source-sans;
 }
 
-body {
-	font-family: $stack-source-sans;
+.font-wt-light {
+	font-weight: 200;
+}
+
+.bold-source {
+    color: $text-drk-gray;
+}
+
+.h1, h1 {
+    font-family: $stack-source-sans;
+    font-weight: 200;
+    color: $text-lt-gray;
+    letter-spacing: 1px;
+    font-size: 36px;
+}
+
+.h2, h2 {
+    font-family: $stack-miriam;
+    font-weight: 400;
+    color: $text-lt-gray;
+    font-size: 24px;
+}
+
+.h3, h3 {
+    font-family: $stack-miriam;
+    font-weight: 400;
+    color: $text-lt-gray;
+    font-size: 14px;
+}
+
+p {
+    font-family: $stack-source-sans;
+    color: $text-ltr-gray;
+    font-size: 13px;
+}
+
+th {
+    font-weight: 400;
+}
+
+td {
+    font-weight: 400;
+}
+
+.radio {
+	font-family: $stack-miriam;
+	font-size: 14px;
 }
 
 .green-text {
