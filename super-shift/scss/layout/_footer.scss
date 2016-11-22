@@ -1,1 +1,51 @@
+footer {
+	background: $bg-light-gray;
+	padding: 40px 75px;
+}
 
+footer h6 {
+	font-size: 18px;
+	font-family: $stack-source-sans;
+	color: $text-med-gray;
+	line-height: 18px;
+	padding-bottom: 10px
+}
+
+	#credits {
+		float: left;
+	}
+
+	#bottom-nav {
+		float: right;
+		font-family: $stack-source-sans;
+		font-size: 18px;
+		line-height: 23px;
+		color: $text-med-gray;
+		padding-top: 30px;
+	}
+
+	#bottom-nav li {
+		display: inline;
+		margin-right: 10px;
+	}
+
+
+
+@media (max-width: 768px) {
+
+	#credits {
+		float: left;
+	}
+
+	#bottom-nav {
+		float: left;
+		padding-left: 0;		
+	}
+
+	#bottom-nav li {
+		display: inline;
+		margin-right: 10px;
+	}
+	
+
+}

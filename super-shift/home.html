@@ -82,59 +82,116 @@
 
 	<div id="wrapper" class="container">
 		
+		<!-- SECTION 1 -->
 		<section id="works" class="row">
 			<div id="section-header"class="col-sm-12"><h2>HERE'S HOW IT ALL WORKS</H2></div>
 			
 			<div id="steps-container" class="clearfix"><!--this has to have clearfix-->
 				
-				<div>
-					<div class="col-sm-4 steps">
-						<div>
-							<div class="oval"><h3 class="step-number">1</h3></div>
-							<h2>Connect Git Account</h2>
-						</div>
-						
-						<p>Authenticate Shift using your GitHub, Bitbucket, or GitLab account and give the Shift robot crew temporary access to your repos. Don’t worry, it’s safe.</p>
-					</div><!--end connect-->
-				</div>
+				<!--step 1-->
+				<div class="col-sm-4 steps">
+					
+					<ul class="step-list-header clearfix">
+						<li><div class="oval"><h3 class="step-number">1</h3></div></li>
+						<li><div><h2>Connect Git Account</h2></div></li>
+					</ul>
 
+					<div class="clearfix"></div>
+
+					<p class="clearfix">Authenticate Shift using your GitHub, Bitbucket, or GitLab account and give the Shift robot crew temporary access to your repos. Don’t worry, it’s safe.</p>
+				</div><!--end step 1 Connect-->
+
+				<!--step 2-->
 				<div class="col-sm-4 steps">
 					
-					<div>
-						<div class="oval"><h3 class="step-number">2</h3></div>
-						<div><h2>Choose Project Repo</h2></div>
-					</div>
-					<p>Pick your desired shift, from 4.2 to 5.3 and everything in between, set your Git repo and branch, and insert some coins with our simple checkout process.</p>
-				</div><!--end choose-->
+					<ul class="step-list-header clearfix">
+						<li><div class="oval"><h3 class="step-number">2</h3></div></li>
+						<li><div><h2>Choose Project Repo</h2></div></li>
+					</ul>
+
+					<div class="clearfix"></div>
+
+					<p class="clearfix">Pick your desired shift, from 4.2 to 5.3 and everything in between, set your Git repo and branch, and insert some coins with our simple checkout process.</p>
+				</div><!--end step 2 Choose-->
 				
+				<!--step 3-->
 				<div class="col-sm-4 steps">
 					
-					<div>
-						<div class="oval"><h3 class="step-number">3</h3></div>
-						<h2>Let the Magic Happen</h2>
-					</div>
-					<p>Everything is automated from here. Changes are peformed on a branch and a highly detailed Pull Request will be ready for your review in a few moments.</p>
-				</div><!--end magic-->
+					<ul class="step-list-header clearfix">
+						<li><div class="oval"><h3 class="step-number">3</h3></div></li>
+						<li><div><h2>Let the Magic Happen</h2></div></li>
+					</ul>
+
+					<div class="clearfix"></div>
+
+					<p class="clearfix">Everything is automated from here. Changes are peformed on a branch and a highly detailed Pull Request will be ready for your review in a few moments.</p>
+				</div><!--end step 3 Magic-->
 			
 			</div><!--end steps container-->
 		
-		</section><!--end works section-->
+		</section><!--end works section | end row-->
 
-		<div id="home-carnation-divider"></div><!--end carnation divider-->
+		<div id="home-carnation-divider" class="row"></div><!--end carnation divider-->
 
+		<!-- SECTION 2 -->
 		<section id="expensive" class="row">
+			
 			<div id="section-header"class="col-sm-12"><h2>MUST BE EXPENSIVE, RIGHT?</H2></div>
-			<p id="nope">Nope. We want everyone to be able to take advantage of Shift, so we’re keeping the cost as low as possible.</p>
-		</section>
+			
+			<p id="nope" class="col-sm-12">Nope. We want everyone to be able to take advantage of Shift, so we’re keeping the cost as low as possible.</p>
+			
+			<div id="prices" class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3"> 
+				<h3>SHIFTS RANGE FROM JUST</h3>
+				<p id="dollars">$3 <span class="dollars">to</span> $19</p>
+			</div><!--end prices div-->
 
-		<section id="testimonials" class="row"></section>
+			<div class="row">
+				<h3 id="see-shifts" class="col-xs-12">SEE ALL THE SHIFTS AND PRICES</h3>
+			</div>
 
-		<section id="demo" class="row"></section>
+			<div id="home-carnation-divider" class="row"></div><!--end carnation divider-->
+
+		</section><!--end section 2-->
+
+
+		<!-- SECTION 3 FULLWIDTH -->
+		<section id="testimonials" class="container-fluid">
+			
+			<div id="section-header"class="col-sm-12"><h2>BUT YOU DON'T HAVE TO TAKE MY WORD FOR IT.</H2></div>
+			
+			<div class="clearfix"></div>
+
+			<!--testimonial row-->
+			<div class="row">
+					<div id="testimonial-container" class="container-fluid clearfix"></div>
+			</div><!--end testimonial row-->
+		
+		</section><!--end section 3-->
+
+		<!-- SECTION 4 -->
+		<section id="demo" class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<button id="btn-demo" class="btn">SEE A DEMO PULL REQUEST</button>
+				<button id="btn-start-now" class="btn">GET STARTED NOW</button>
+
+			</div>
+		</section><!--end section 4-->
 	    
-	
 	</div><!--end wrapper div-->
 
-	<footer></footer>
+	<footer class="clearfix">
+		<div id="credits">
+			<h6>Developed by <span class="carnation-text">JMac</span> and designed by <span class="carnation-text">Jack McDade</span></h6>
+			<p>(yes, they are totally different people)</p>
+		</div>
+
+		<ul id="bottom-nav">
+			<li>Pricing</li>
+			<li>FAQ</li>
+			<li>Donate</li>
+			<li>Terms</li>
+		</ul>
+	</footer>
  	
  	<!-- jQuery -->
     <script

@@ -123,7 +123,19 @@
 
 #steps-container {
 	background: $bg-light-gray;
-	padding: 50px;
+	padding: 0 50px 75px 50px;
+}
+
+.step-list-header {
+	float: left;
+	padding-left: 0;
+	padding-top: 75px;
+	padding-bottom: 15px;
+}
+
+.step-list-header li {
+	display: inline-block;
+	padding-right: 15px;
 }
 
 .steps {
@@ -155,6 +167,9 @@
 
 #steps-container p {
 	text-align: left;
+	line-height: 24px;
+	font-size: 16px;
+	color: #768093;
 }
 
 // divider --------------------------------------------------------------*/
@@ -165,6 +180,7 @@
 	margin: 0 auto;
 	margin-top: 150px;
 	margin-bottom: 50px;
+	font-family: $stack-source-sans;
 }
 
 
@@ -183,6 +199,77 @@
 	color: $text-med-gray;
 }
 
+#prices {
+	background: $text-med-gray;
+	box-shadow: 0 1px 25px 0 rgba(0,0,0,0.25);
+	text-align: center;
+	font-size: 18px;
+	color: $white;
+	line-height: 23px;
+	padding-top: 25px;
+}
+
+#dollars {
+	color: $white;
+	font-size: 116px;
+	font-weight: 400;
+	line-height: 146px;
+	padding-bottom: 25px;
+}
+//for span 'to'
+.dollars {
+	color: $text-lt-gray;
+	font-weight: 200;
+}
+
+#see-shifts {
+	text-align: center;
+	font-size: 18px;
+	color: $carnation;
+	line-height: 23px;
+	padding-top: 25px;
+}
+
+/* TESTIMONIAL STYLES styles---------------------------- */
+#testimonial-container {
+	background: $bg-light-gray;
+	width: 100%;
+	padding: 20px;
+}
+
+
+/* DEMO/START NOW BUTTON styles---------------------------- */
+#btn-demo {
+	width: 350px;
+	font-family: $stack-miriam;
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	color: $white;
+	margin-top: 50px;
+	margin-bottom: 168px;
+	background: $text-med-gray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 50px;
+}
+
+#btn-start-now {
+	width: 350px;
+	font-family: $stack-miriam;
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	color: $white;
+	margin-top: 50px;
+	margin-bottom: 168px;
+	background: $carnation;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 /* CLEARFIX styles----------------------------------------- */
 //apply to container holding inline elements
 .clearfix::after {
@@ -191,7 +278,7 @@
 	clear: both;
 }
 
-/* HOME PAGE MEDIA queries ----------------------------------------------------- */
+/* HOME PAGE MEDIA queries --------------------------------- */
 @media (max-width: 992px) and (min-width: 768px) {
 
 	#steps-container h2 {
@@ -202,6 +289,21 @@
 		padding: 50px 100px;
 	}
 
+	.step-list-header {
+		padding-top: 10px;
+	}
+
+	.step-list-header li {
+		padding-right: 5px;
+	}
+
+	#dollars {
+		font-size: 84px;
+	}
+
+	#btn-demo {
+		margin-right: 10px;
+	}
 
 }
 
@@ -223,11 +325,29 @@
 	}
 
 	#steps-container {
-		padding: 25px;
+		padding: 0 15px 75px 15px;
+	}
+
+	.step-list-header {
+		padding-top: 20px;
 	}
 
 	#nope {
 		padding: 30px 50px;
+	}
+
+	#dollars {
+		font-size: 72px;
+	}
+
+	#btn-demo {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	#btn-start-now {
+		margin-top: 20px;
+		margin-left: 0;
 	}
 
 }
@@ -250,7 +370,7 @@
 	}
 
 	#nope {
-		padding: 15px 5px;
+		padding: 15px 50px;
 	}
 
 }
@@ -271,7 +391,6 @@
 		font-size: 0.4em;
 		padding-top: 5px;
 	}
-
 
 }
 

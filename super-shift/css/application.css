@@ -55,7 +55,6 @@ body {
   color: #777;
   font-family: 'Source Sans Pro',sans-serif;
   font-size: 16px;
-  margin-bottom: 80px;
   padding-top: 93px; }
 
 #home-page-body {
@@ -409,7 +408,17 @@ button:focus {
 
 #steps-container {
   background: #f9f9f9;
-  padding: 50px; }
+  padding: 0 50px 75px 50px; }
+
+.step-list-header {
+  float: left;
+  padding-left: 0;
+  padding-top: 75px;
+  padding-bottom: 15px; }
+
+.step-list-header li {
+  display: inline-block;
+  padding-right: 15px; }
 
 .steps {
   padding: 15px; }
@@ -435,7 +444,10 @@ button:focus {
   font-size: 24px; }
 
 #steps-container p {
-  text-align: left; }
+  text-align: left;
+  line-height: 24px;
+  font-size: 16px;
+  color: #768093; }
 
 #home-carnation-divider {
   width: 168px;
@@ -443,7 +455,8 @@ button:focus {
   border: 5px solid #FF9692;
   margin: 0 auto;
   margin-top: 150px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  font-family: "Source Sans Pro", sans-serif; }
 
 /* MUST BE EXPENSIVE styles----------------------------------------- */
 #expensive {
@@ -457,19 +470,94 @@ button:focus {
   line-height: 31px;
   color: #3a3a3a; }
 
+#prices {
+  background: #3a3a3a;
+  box-shadow: 0 1px 25px 0 rgba(0, 0, 0, 0.25);
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  line-height: 23px;
+  padding-top: 25px; }
+
+#dollars {
+  color: #fff;
+  font-size: 116px;
+  font-weight: 400;
+  line-height: 146px;
+  padding-bottom: 25px; }
+
+.dollars {
+  color: #777;
+  font-weight: 200; }
+
+#see-shifts {
+  text-align: center;
+  font-size: 18px;
+  color: #f4645f;
+  line-height: 23px;
+  padding-top: 25px; }
+
+/* TESTIMONIAL STYLES styles---------------------------- */
+#testimonial-container {
+  background: #f9f9f9;
+  width: 100%;
+  padding: 20px; }
+
+/* DEMO/START NOW BUTTON styles---------------------------- */
+#btn-demo {
+  width: 350px;
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 168px;
+  background: #3a3a3a;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 50px; }
+
+#btn-start-now {
+  width: 350px;
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 168px;
+  background: #f4645f;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 /* CLEARFIX styles----------------------------------------- */
 .clearfix::after {
   content: "";
   display: table;
   clear: both; }
 
-/* HOME PAGE MEDIA queries ----------------------------------------------------- */
+/* HOME PAGE MEDIA queries --------------------------------- */
 @media (max-width: 992px) and (min-width: 768px) {
   #steps-container h2 {
     font-size: 20px; }
 
   #nope {
-    padding: 50px 100px; } }
+    padding: 50px 100px; }
+
+  .step-list-header {
+    padding-top: 10px; }
+
+  .step-list-header li {
+    padding-right: 5px; }
+
+  #dollars {
+    font-size: 84px; }
+
+  #btn-demo {
+    margin-right: 10px; } }
 @media (max-width: 769px) {
   .squares {
     width: 55px;
@@ -484,10 +572,24 @@ button:focus {
     margin-bottom: 0; }
 
   #steps-container {
-    padding: 25px; }
+    padding: 0 15px 75px 15px; }
+
+  .step-list-header {
+    padding-top: 20px; }
 
   #nope {
-    padding: 30px 50px; } }
+    padding: 30px 50px; }
+
+  #dollars {
+    font-size: 72px; }
+
+  #btn-demo {
+    margin-right: 0;
+    margin-bottom: 20px; }
+
+  #btn-start-now {
+    margin-top: 20px;
+    margin-left: 0; } }
 @media (max-width: 480px) {
   .squares {
     width: 40px;
@@ -502,7 +604,7 @@ button:focus {
     padding-top: 5px; }
 
   #nope {
-    padding: 15px 5px; } }
+    padding: 15px 50px; } }
 @media (max-width: 320px) {
   .squares {
     width: 30px;
@@ -696,6 +798,43 @@ input[type=radio] {
   #laravel-shifts {
     float: left;
     padding-left: 15px; } }
+footer {
+  background: #f9f9f9;
+  padding: 40px 75px; }
+
+footer h6 {
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #3a3a3a;
+  line-height: 18px;
+  padding-bottom: 10px; }
+
+#credits {
+  float: left; }
+
+#bottom-nav {
+  float: right;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  color: #3a3a3a;
+  padding-top: 30px; }
+
+#bottom-nav li {
+  display: inline;
+  margin-right: 10px; }
+
+@media (max-width: 768px) {
+  #credits {
+    float: left; }
+
+  #bottom-nav {
+    float: left;
+    padding-left: 0; }
+
+  #bottom-nav li {
+    display: inline;
+    margin-right: 10px; } }
 .glyphicon-repeat {
   text-align: center; }
 
