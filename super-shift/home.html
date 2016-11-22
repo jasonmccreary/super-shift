@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/application.css">
   </head>
   
-  <body>
+  <body id="home-page-body">
 
   	<header>
 
@@ -81,9 +81,60 @@
   	</header>
 
 	<div id="wrapper" class="container">
+		
+		<section id="works" class="row">
+			<div id="section-header"class="col-sm-12"><h2>HERE'S HOW IT ALL WORKS</H2></div>
+			
+			<div id="steps-container" class="clearfix"><!--this has to have clearfix-->
+				
+				<div>
+					<div class="col-sm-4 steps">
+						<div>
+							<div class="oval"><h3 class="step-number">1</h3></div>
+							<h2>Connect Git Account</h2>
+						</div>
+						
+						<p>Authenticate Shift using your GitHub, Bitbucket, or GitLab account and give the Shift robot crew temporary access to your repos. Don’t worry, it’s safe.</p>
+					</div><!--end connect-->
+				</div>
+
+				<div class="col-sm-4 steps">
+					
+					<div>
+						<div class="oval"><h3 class="step-number">2</h3></div>
+						<div><h2>Choose Project Repo</h2></div>
+					</div>
+					<p>Pick your desired shift, from 4.2 to 5.3 and everything in between, set your Git repo and branch, and insert some coins with our simple checkout process.</p>
+				</div><!--end choose-->
+				
+				<div class="col-sm-4 steps">
+					
+					<div>
+						<div class="oval"><h3 class="step-number">3</h3></div>
+						<h2>Let the Magic Happen</h2>
+					</div>
+					<p>Everything is automated from here. Changes are peformed on a branch and a highly detailed Pull Request will be ready for your review in a few moments.</p>
+				</div><!--end magic-->
+			
+			</div><!--end steps container-->
+		
+		</section><!--end works section-->
+
+		<div id="home-carnation-divider"></div><!--end carnation divider-->
+
+		<section id="expensive" class="row">
+			<div id="section-header"class="col-sm-12"><h2>MUST BE EXPENSIVE, RIGHT?</H2></div>
+			<p id="nope">Nope. We want everyone to be able to take advantage of Shift, so we’re keeping the cost as low as possible.</p>
+		</section>
+
+		<section id="testimonials" class="row"></section>
+
+		<section id="demo" class="row"></section>
 	    
 	
 	</div><!--end wrapper div-->
+
+	<footer></footer>
  	
  	<!-- jQuery -->
     <script

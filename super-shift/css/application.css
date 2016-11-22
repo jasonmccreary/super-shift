@@ -51,15 +51,16 @@
   box-sizing: border-box; }
 
 body {
-  background: #f4f4f4;
-  color: #777; }
-
-body {
-  background: #f4f4f4;
+  background: #f9f9f9;
   color: #777;
   font-family: 'Source Sans Pro',sans-serif;
   font-size: 16px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  padding-top: 93px; }
+
+#home-page-body {
+  padding-top: 0;
+  background: #fff; }
 
 section {
   padding-top: 15px; }
@@ -72,13 +73,250 @@ ul {
   height: 2px;
   border-bottom: 2px solid #f4645f; }
 
-/* home page styles------------------ */
+.centered {
+  text-align: center; }
+
+/* typography styles -------------------- */
+.miriam {
+  font-family: "Miriam Libre", sans-serif; }
+
+.source-sans {
+  font-family: "Source Sans Pro", sans-serif; }
+
+.font-wt-light {
+  font-weight: 200; }
+
+.bold-source {
+  color: #414448; }
+
+.bold-source-white {
+  font-weight: 700; }
+
+.h1, h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 36px; }
+
+.h2, h2 {
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: 400;
+  font-size: 24px; }
+
+.h3, h3 {
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a6a6a6;
+  font-size: 13px; }
+
+th {
+  font-weight: 400; }
+
+td {
+  font-weight: 400; }
+
+.radio {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 14px; }
+
+.green-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: #27b4a8; }
+
+@media screen and (max-width: 768px) {
+  .table {
+    font-size: .75em; } }
+/* button styles ----------------- */
+.green-button {
+  background: #27b4a8;
+  color: #fff;
+  font-weight: 500;
+  font-size: .8em;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  letter-spacing: 1px; }
+
+.carnation-button {
+  background: #f4645f;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px; }
+
+.x-out-button {
+  background: transparent;
+  color: #777;
+  font-weight: 700;
+  font-family: "Miriam Libre", sans-serif;
+  font-size: .7em;
+  padding: 8px 15px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px; }
+
+button:focus {
+  outline: none; }
+
+/* dashboard page buttons --------- */
+#new-shift-button {
+  cursor: initial; }
+
+/* new-shift page buttons --------- */
+#ck-out-button {
+  padding: 13px 20px; }
+
+.glyphicon-user {
+  border: 3px solid #dbdbdb;
+  padding: 7px;
+  margin-top: -5px; }
+
+.glyphicon-repeat {
+  color: #27b4a8; }
+
+.glyphicon-remove {
+  color: #777;
+  border: none;
+  padding-left: 15px; }
+
+.icon-bar {
+  color: #fff; }
+
+.fa-github {
+  font-size: 1.5em; }
+
+#main-nav {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #fff; }
+
+#navbar {
+  padding-right: 50px;
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #3a3a3a; }
+
+#nav-hamburger {
+  margin-right: 50px; }
+
+.navbar-header {
+  padding-left: 25px; }
+
+#S-logo {
+  width: 45px;
+  height: 45px;
+  background: #f4645f;
+  background-image: linear-gradient(to top right, #f7928f, #f4645f);
+  border-radius: 150px;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  padding: 5px 15px;
+  margin-top: -10px;
+  text-align: center; }
+
+#S-logo {
+  text-shadow: 0 1px #f4645f,-1px 0 #f3bd92,-1px 2px  #f4645f,-2px 1px #f3bd92,-2px 3px #f4645f,-3px 2px  #f3bd92,-3px 4px #f4645f; }
+
+.nav-new-shift {
+  border-radius: 5px;
+  margin-top: 5%;
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400; }
+
+@media (min-width: 768px) {
+  .nav-new-shift a {
+    padding-top: 8px;
+    padding-bottom: 8px; }
+
+  #navbar {
+    padding-right: 75px; }
+
+  .navbar-header {
+    padding-left: 75px; }
+
+  #S-logo {
+    margin-top: -10px; } }
+/* table styles -------------------- */
+.borderless tbody tr td,
+.borderless tbody tr th,
+.borderless thead tr th,
+.borderless thead tr td,
+.borderless tfoot tr th,
+.borderless tfoot tr td {
+  border: none; }
+
+/* dashboard table styles -------------------- */
+.panel {
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+  background: #fff; }
+
+.panel-heading {
+  padding: 0; }
+
+.panel-heading h1 {
+  margin-top: 0; }
+
+.table > thead > tr > th, .table > tbody > tr > th {
+  vertical-align: middle;
+  border-bottom: none; }
+
+.table > thead > tr > th:first-child, .table > tbody > tr > th:first-child {
+  padding-left: 20px; }
+
+.table > thead > tr > th:last-child, .table > tbody > tr > th:last-child {
+  padding-right: 20px; }
+
+.bottom-row {
+  border-bottom: 2px solid #dbdbdb; }
+
+#shift-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+  border-top: none; }
+
+.b-border {
+  border-bottom: 2px solid #f4645f; }
+
+/* get started page table styles------ */
+#shifts-radio-table > tbody > tr > td,
+#shifts-radio-table2 > tbody > tr > td {
+  padding: 0; }
+
+/* media queries -------------------- */
+@media (max-width: 992px) {
+  .table {
+    font-size: 0.85em; } }
+@media (max-width: 768px) {
+  .table-responsive {
+    border: none; }
+
+  .table {
+    font-size: 0.75em; } }
+/* form styles -------------------- */
+/* HOME PAGE STYLES---------------------------------------- */
 #home-header {
   color: #fff;
   text-align: center;
   padding: 20px 25px 50px 25px; }
 
-/* right nav to github------- */
+/* GITHUB NAV LINK--------------------------------------------- */
 #nav-github ul {
   float: right; }
 
@@ -92,6 +330,7 @@ ul {
   margin-top: 7px;
   padding-right: 10px; }
 
+/* 'SHIFT' brand centered in the header--------------------------- */
 #shift-logo {
   padding-top: 50px;
   font-size: 72px;
@@ -105,7 +344,6 @@ ul {
   text-shadow: 1px 1px #f3423b;
   letter-spacing: 1px; }
 
-/* shifty squares styles------------------ */
 /* ul square styles------- */
 #ul-squares-wrapper {
   text-align: center; }
@@ -156,8 +394,83 @@ ul {
   font-size: 0.50em;
   letter-spacing: 1px; }
 
-/* home media queries --------- */
-@media (max-width: 768px) {
+/* HOW IT ALL WORKS SECTION styles----------------------------------------- */
+#works,
+#testimonials,
+#demo {
+  color: #3a3a3a;
+  text-align: center; }
+
+#section-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #fff;
+  font-weight: 600; }
+
+#steps-container {
+  background: #f9f9f9;
+  padding: 50px; }
+
+.steps {
+  padding: 15px; }
+
+.oval {
+  background-color: #3a3a3a;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 0; }
+
+#steps-container h2 {
+  color: #3a3a3a;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
+  font-weight: 600; }
+
+.step-number {
+  line-height: 35px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 24px; }
+
+#steps-container p {
+  text-align: left; }
+
+#home-carnation-divider {
+  width: 168px;
+  height: 5px;
+  border: 5px solid #FF9692;
+  margin: 0 auto;
+  margin-top: 150px;
+  margin-bottom: 50px; }
+
+/* MUST BE EXPENSIVE styles----------------------------------------- */
+#expensive {
+  color: #3a3a3a;
+  text-align: center; }
+
+#nope {
+  padding: 50px 200px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 31px;
+  color: #3a3a3a; }
+
+/* CLEARFIX styles----------------------------------------- */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* HOME PAGE MEDIA queries ----------------------------------------------------- */
+@media (max-width: 992px) and (min-width: 768px) {
+  #steps-container h2 {
+    font-size: 20px; }
+
+  #nope {
+    padding: 50px 100px; } }
+@media (max-width: 769px) {
   .squares {
     width: 55px;
     height: 55px; }
@@ -168,7 +481,13 @@ ul {
   .laravel {
     font-size: 0.5em;
     padding-top: 10px;
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  #steps-container {
+    padding: 25px; }
+
+  #nope {
+    padding: 30px 50px; } }
 @media (max-width: 480px) {
   .squares {
     width: 40px;
@@ -180,7 +499,10 @@ ul {
 
   .laravel {
     font-size: 0.5em;
-    padding-top: 5px; } }
+    padding-top: 5px; }
+
+  #nope {
+    padding: 15px 5px; } }
 @media (max-width: 320px) {
   .squares {
     width: 30px;
@@ -376,242 +698,5 @@ input[type=radio] {
     padding-left: 15px; } }
 .glyphicon-repeat {
   text-align: center; }
-
-/* typography styles -------------------- */
-.miriam {
-  font-family: "Miriam Libre", sans-serif; }
-
-.source-sans {
-  font-family: "Source Sans Pro", sans-serif; }
-
-.font-wt-light {
-  font-weight: 200; }
-
-.bold-source {
-  color: #414448; }
-
-.bold-source-white {
-  font-weight: 700; }
-
-.h1, h1 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 200;
-  color: #777;
-  letter-spacing: 1px;
-  font-size: 36px; }
-
-.h2, h2 {
-  font-family: "Miriam Libre", sans-serif;
-  font-weight: 400;
-  color: #777;
-  font-size: 24px; }
-
-.h3, h3 {
-  font-family: "Miriam Libre", sans-serif;
-  font-weight: 400;
-  color: #777;
-  font-size: 14px; }
-
-p {
-  font-family: "Source Sans Pro", sans-serif;
-  color: #a6a6a6;
-  font-size: 13px; }
-
-th {
-  font-weight: 400; }
-
-td {
-  font-weight: 400; }
-
-.radio {
-  font-family: "Miriam Libre", sans-serif;
-  font-size: 14px; }
-
-.green-text {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 21px;
-  font-weight: 700;
-  color: #27b4a8; }
-
-@media screen and (max-width: 768px) {
-  .table {
-    font-size: .75em; } }
-/* button styles ----------------- */
-.green-button {
-  background: #27b4a8;
-  color: #fff;
-  font-weight: 500;
-  font-size: .8em;
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 3px;
-  letter-spacing: 1px; }
-
-.carnation-button {
-  background: #f4645f;
-  color: #fff;
-  font-weight: 500;
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 8px 15px;
-  border: none;
-  border-radius: 3px; }
-
-.x-out-button {
-  background: transparent;
-  color: #777;
-  font-weight: 700;
-  font-family: "Miriam Libre", sans-serif;
-  font-size: .7em;
-  padding: 8px 15px;
-  border: 1px solid #dbdbdb;
-  border-radius: 3px; }
-
-button:focus {
-  outline: none; }
-
-/* dashboard page buttons --------- */
-#new-shift-button {
-  cursor: initial; }
-
-/* new-shift page buttons --------- */
-#ck-out-button {
-  padding: 13px 20px; }
-
-.glyphicon-user {
-  border: 3px solid #dbdbdb;
-  padding: 7px;
-  margin-top: -5px; }
-
-.glyphicon-repeat {
-  color: #27b4a8; }
-
-.glyphicon-remove {
-  color: #777;
-  border: none;
-  padding-left: 15px; }
-
-.icon-bar {
-  color: #fff; }
-
-.fa-github {
-  font-size: 1.5em; }
-
-#main-nav {
-  padding-top: 15px;
-  padding-bottom: 15px; }
-
-#navbar {
-  padding-right: 50px;
-  font-size: 17px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  color: #3a3a3a; }
-
-#nav-hamburger {
-  margin-right: 50px; }
-
-.navbar-header {
-  padding-left: 25px; }
-
-#S-logo {
-  width: 45px;
-  height: 45px;
-  background: #f4645f;
-  background-image: linear-gradient(to top right, #f7928f, #f4645f);
-  border-radius: 150px;
-  color: #fff;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 30px;
-  font-weight: 200;
-  padding: 5px 15px;
-  margin-top: -10px;
-  text-align: center; }
-
-#S-logo {
-  text-shadow: 0 1px #f4645f,-1px 0 #f3bd92,-1px 2px  #f4645f,-2px 1px #f3bd92,-2px 3px #f4645f,-3px 2px  #f3bd92,-3px 4px #f4645f; }
-
-.nav-new-shift {
-  border-radius: 5px;
-  margin-top: 5%;
-  font-size: 16px;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400; }
-
-@media (min-width: 768px) {
-  .nav-new-shift a {
-    padding-top: 8px;
-    padding-bottom: 8px; }
-
-  #navbar {
-    padding-right: 75px; }
-
-  .navbar-header {
-    padding-left: 75px; }
-
-  #S-logo {
-    margin-top: -10px; } }
-/* table styles -------------------- */
-.borderless tbody tr td,
-.borderless tbody tr th,
-.borderless thead tr th,
-.borderless thead tr td,
-.borderless tfoot tr th,
-.borderless tfoot tr td {
-  border: none; }
-
-/* dashboard table styles -------------------- */
-.panel {
-  padding-left: 0;
-  padding-right: 0;
-  border: none;
-  background: #fff; }
-
-.panel-heading {
-  padding: 0; }
-
-.panel-heading h1 {
-  margin-top: 0; }
-
-.table > thead > tr > th, .table > tbody > tr > th {
-  vertical-align: middle;
-  border-bottom: none; }
-
-.table > thead > tr > th:first-child, .table > tbody > tr > th:first-child {
-  padding-left: 20px; }
-
-.table > thead > tr > th:last-child, .table > tbody > tr > th:last-child {
-  padding-right: 20px; }
-
-.bottom-row {
-  border-bottom: 2px solid #dbdbdb; }
-
-#shift-header {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  font-size: 1.3em;
-  letter-spacing: 1px;
-  border-top: none; }
-
-.b-border {
-  border-bottom: 2px solid #f4645f; }
-
-/* get started page table styles------ */
-#shifts-radio-table > tbody > tr > td,
-#shifts-radio-table2 > tbody > tr > td {
-  padding: 0; }
-
-/* media queries -------------------- */
-@media (max-width: 992px) {
-  .table {
-    font-size: 0.85em; } }
-@media (max-width: 768px) {
-  .table-responsive {
-    border: none; }
-
-  .table {
-    font-size: 0.75em; } }
-/* form styles -------------------- */
 
 /*# sourceMappingURL=application.css.map */

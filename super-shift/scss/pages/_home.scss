@@ -1,11 +1,11 @@
-/* home page styles------------------ */
+/* HOME PAGE STYLES---------------------------------------- */
 
 #home-header {
 	color: $white;
 	text-align: center;
 	padding: 20px 25px 50px 25px;
 }
-/* right nav to github------- */
+/* GITHUB NAV LINK--------------------------------------------- */
 #nav-github ul {
 	float: right;
 }
@@ -22,6 +22,7 @@
 	padding-right: 10px;
 }
 
+/* 'SHIFT' brand centered in the header--------------------------- */
 #shift-logo {
 	padding-top: 50px;
 	font-size: 72px;
@@ -42,7 +43,7 @@
 	letter-spacing: 1px;
 }
 
-/* shifty squares styles------------------ */
+//SQUARE CARD STYLES--------------------------------------------------*/
 
 /* ul square styles------- */
 #ul-squares-wrapper {
@@ -73,7 +74,7 @@
 	padding: 0 15px 3px;
 }
 
-//squares box shadow
+//SQUARE CARD box shadow    -----*/
 .squares {
 	/* 50% black box shadow */
 	-webkit-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
@@ -105,12 +106,106 @@
 	letter-spacing: 1px;
 }
 
-/* home media queries --------- */
-@media (max-width: 992px) {
+/* HOW IT ALL WORKS SECTION styles----------------------------------------- */
+#works,
+#testimonials,
+#demo {
+	color: $text-med-gray;
+	text-align: center;
+}
+
+#section-header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: $white;
+	font-weight: 600;
+}
+
+#steps-container {
+	background: $bg-light-gray;
+	padding: 50px;
+}
+
+.steps {
+	padding: 15px;
+}
+
+.oval {
+	background-color: $text-med-gray;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	margin-right: 0;
+}
+
+#steps-container h2 {
+	color: $text-med-gray;
+	font-family: $stack-source-sans;
+	text-align: left;
+	font-weight: 600;
+}
+
+.step-number {
+		line-height: 35px;
+		font-family: $stack-source-sans;
+		text-align: center;
+		color: $white;
+		font-size: 24px;
+}
+
+#steps-container p {
+	text-align: left;
+}
+
+// divider --------------------------------------------------------------*/
+#home-carnation-divider {
+	width: 168px;
+	height: 5px;
+	border: 5px solid #FF9692;
+	margin: 0 auto;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+
+/* MUST BE EXPENSIVE styles----------------------------------------- */
+
+#expensive {
+	color: $text-med-gray;
+	text-align: center;
+}
+
+#nope {
+	padding: 50px 200px;;
+	font-size: 24px;
+	text-align: center;
+	line-height: 31px;
+	color: $text-med-gray;
+}
+
+/* CLEARFIX styles----------------------------------------- */
+//apply to container holding inline elements
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* HOME PAGE MEDIA queries ----------------------------------------------------- */
+@media (max-width: 992px) and (min-width: 768px) {
+
+	#steps-container h2 {
+		font-size: 20px;
+	}
+
+	#nope {
+		padding: 50px 100px;
+	}
+
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 
 	.squares {
 		width: 55px;
@@ -125,6 +220,14 @@
 		font-size: 0.5em;
 		padding-top: 10px;
 		margin-bottom: 0;
+	}
+
+	#steps-container {
+		padding: 25px;
+	}
+
+	#nope {
+		padding: 30px 50px;
 	}
 
 }
@@ -146,6 +249,10 @@
 		padding-top: 5px;
 	}
 
+	#nope {
+		padding: 15px 5px;
+	}
+
 }
 
 @media (max-width: 320px) {
@@ -164,6 +271,7 @@
 		font-size: 0.4em;
 		padding-top: 5px;
 	}
+
 
 }
 
