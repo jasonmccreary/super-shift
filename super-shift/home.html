@@ -7,22 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<!-- Fonts -->
+		<!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:400,700" rel="stylesheet">
     <script src="https://use.fontawesome.com/f78da8f1d5.js"></script>
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--Main CSS -->
-    <link rel="stylesheet" href="css/application.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	  <!--Main CSS -->
+	  <link rel="stylesheet" href="css/application.css">
   </head>
   
   <body id="home-page-body">
 
   	<header>
 
-  		<div class="row">
 			<div id="header-content-wrapper" class="container-fluid carnation-gradient">
 				<div id="home-header" class="container">
 					<div id="nav-github" class="row">
@@ -49,7 +48,7 @@
 							</li>
 							<li class="list-dotted">
 								<!--make an img so that it will be responsive-->
-								<div class="dash-line white">---------------------------</div>
+								<div class="dash-line white">-----------------------</div>
 							</li>
 							<li class="list-sq2 ninety-op">
 								<p class="minus-margin white">TO</p>
@@ -76,14 +75,13 @@
 				</div><!--end squares row-->
 
 			</div><!--end header-content-wrapper - gradient container-->
-		</div><!--end logo/tag row-->
 
   	</header>
 
 	<div id="wrapper" class="container">
 		
 		<!-- SECTION 1 -->
-		<section id="works" class="row">
+		<section id="works" class="clearfix">
 			<div id="section-header"class="col-sm-12"><h2>HERE'S HOW IT ALL WORKS</H2></div>
 			
 			<div id="steps-container" class="clearfix"><!--this has to have clearfix-->
@@ -134,7 +132,7 @@
 		<div id="home-carnation-divider" class="row"></div><!--end carnation divider-->
 
 		<!-- SECTION 2 -->
-		<section id="expensive" class="row">
+		<section id="expensive" class="clearfix">
 			
 			<div id="section-header"class="col-sm-12"><h2>MUST BE EXPENSIVE, RIGHT?</H2></div>
 			
@@ -154,27 +152,70 @@
 		</section><!--end section 2-->
 
 
-		<!-- SECTION 3 FULLWIDTH -->
-		<section id="testimonials" class="container-fluid">
+		<!-- SECTION 3 -->
+		<section id="testimonials" class="clearfix">
 			
 			<div id="section-header"class="col-sm-12"><h2>BUT YOU DON'T HAVE TO TAKE MY WORD FOR IT.</H2></div>
 			
 			<div class="clearfix"></div>
 
-			<!--testimonial row-->
-			<div class="row">
-					<div id="testimonial-container" class="container-fluid clearfix"></div>
-			</div><!--end testimonial row-->
+			<!--testimonial row - carousel-->
+
+					
+					<div id="testimonial-container" class="carousel slide col-sm-12" data-ride="carousel">
+					
+					<!--slide indicators-->
+					<ol class="carousel-indicators">
+						<li data-target="#testimonial-container" data-slide-to="0" class="active"></li>
+						<li data-target="#testimonial-container" data-slide-to="1"></li>
+						<li data-target="#testimonial-container" data-slide-to="2"></li>
+						<li data-target="#testimonial-container" data-slide-to="3"></li>
+						<li data-target="#testimonial-container" data-slide-to="4"></li>
+					</ol>
+						<div class="carousel-inner">
+							
+							<!--slides-->
+							<div class="item active">
+								<q class="quote">It was like employing a senior Laravel developer for an afternoon. Except it cost less than my lunch.</q>
+								<p class="quoter">@sunscreen</p>
+							</div><!--end slide 1-->
+
+							<div class="item">
+								<q class="quote">Just used Shift for the first time, went awesome. Even the stuff it can't automate is much easier with this tool.</q>
+								<p class="quoter">@adamwathan</p>
+							</div><!--end slide 2-->
+
+							<div class="item">
+								<q class="quote">The amount of time and mental power Shift saves is worth much, much more than the cost.</q>
+								<p class="quoter">@stauffermatt</p>
+							</div><!--end slide 3-->
+
+							<div class="item">
+								<q class="quote">Just purchased my second Shift and am so happy that this service exists. You seriously MUST give it a try.</q>
+								<p class="quoter">@JacobBennett</p>
+							</div><!--end slide 4-->
+
+							<div class="item">
+								<q class="quote">Just purchased my second Shift and am so happy that this service exists. You seriously MUST give it a try.</q>
+								<p class="quoter">@JacobBennett</p>
+							</div><!--end slide 5-->
+						
+						</div><!--end inner carousel-->
+
+					</div><!--end carousel container-->
+			
+
 		
 		</section><!--end section 3-->
 
 		<!-- SECTION 4 -->
-		<section id="demo" class="row">
-			<div class="col-md-10 col-md-offset-1">
+		<section id="demo" class="clearfix">
+			
+			<div id="demo-btns" class="col-md-10 col-md-offset-1">
 				<button id="btn-demo" class="btn">SEE A DEMO PULL REQUEST</button>
 				<button id="btn-start-now" class="btn">GET STARTED NOW</button>
-
 			</div>
+		
 		</section><!--end section 4-->
 	    
 	</div><!--end wrapper div-->
@@ -182,7 +223,7 @@
 	<footer class="clearfix">
 		<div id="credits">
 			<h6>Developed by <span class="carnation-text">JMac</span> and designed by <span class="carnation-text">Jack McDade</span></h6>
-			<p>(yes, they are totally different people)</p>
+			<p>(Yes, they are totally different people)</p>
 		</div>
 
 		<ul id="bottom-nav">
@@ -194,12 +235,12 @@
 	</footer>
  	
  	<!-- jQuery -->
-    <script
+  <script
 	  src="https://code.jquery.com/jquery-3.1.1.min.js"
 	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	  crossorigin="anonymous">
 	</script>
-    <!-- Latest compiled and minified JavaScript -->
+  <!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   </body>

@@ -408,12 +408,12 @@ button:focus {
 
 #steps-container {
   background: #f9f9f9;
-  padding: 0 50px 75px 50px; }
+  padding: 0 35px 75px 35px; }
 
 .step-list-header {
   float: left;
   padding-left: 0;
-  padding-top: 75px;
+  padding-top: 50px;
   padding-bottom: 15px; }
 
 .step-list-header li {
@@ -499,11 +499,59 @@ button:focus {
 
 /* TESTIMONIAL STYLES styles---------------------------- */
 #testimonial-container {
-  background: #f9f9f9;
-  width: 100%;
-  padding: 20px; }
+  background: #f9f9f9; }
+
+.item {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%; }
+
+q {
+  font-family: "Source Sans Pro";
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 45px;
+  color: #3a3a3a; }
+
+q::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 5%;
+  padding-left: 4%; }
+
+q::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 5%;
+  padding-right: 4%; }
+
+.quoter {
+  font-family: "Miriam Libre";
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 23px;
+  color: #f4645f;
+  padding-top: 25px;
+  padding-bottom: 40px; }
+
+.carousel-inner {
+  margin-bottom: 40px; }
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70, 70, 70, 0.25); }
+
+.carousel-indicators .active {
+  background-color: #3a3a3a; }
 
 /* DEMO/START NOW BUTTON styles---------------------------- */
+#demo-btns {
+  padding-top: 50px; }
+
 #btn-demo {
   width: 350px;
   font-family: "Miriam Libre", sans-serif;
@@ -514,10 +562,10 @@ button:focus {
   color: #fff;
   margin-top: 50px;
   margin-bottom: 168px;
+  margin-right: 50px;
   background: #3a3a3a;
   padding-top: 20px;
-  padding-bottom: 20px;
-  margin-right: 50px; }
+  padding-bottom: 20px; }
 
 #btn-start-now {
   width: 350px;
@@ -540,25 +588,18 @@ button:focus {
   clear: both; }
 
 /* HOME PAGE MEDIA queries --------------------------------- */
-@media (max-width: 992px) and (min-width: 768px) {
-  #steps-container h2 {
-    font-size: 20px; }
-
-  #nope {
-    padding: 50px 100px; }
-
-  .step-list-header {
-    padding-top: 10px; }
-
-  .step-list-header li {
-    padding-right: 5px; }
-
-  #dollars {
-    font-size: 84px; }
-
+@media (max-width: 992px) {
   #btn-demo {
-    margin-right: 10px; } }
-@media (max-width: 769px) {
+    margin-right: 0;
+    margin-bottom: 20px; }
+
+  .carousel-inner {
+    width: 100%;
+    max-height: 200px !important; }
+
+  q {
+    font-size: 24px; } }
+@media (max-width: 768px) {
   .squares {
     width: 55px;
     height: 55px; }
@@ -581,7 +622,7 @@ button:focus {
     padding: 30px 50px; }
 
   #dollars {
-    font-size: 72px; }
+    font-size: 84px; }
 
   #btn-demo {
     margin-right: 0;
@@ -589,7 +630,14 @@ button:focus {
 
   #btn-start-now {
     margin-top: 20px;
-    margin-left: 0; } }
+    margin-left: 0; }
+
+  q {
+    font-size: 18px; }
+
+  .quoter {
+    padding-top: 10px;
+    font-size: 14px; } }
 @media (max-width: 480px) {
   .squares {
     width: 40px;
@@ -604,7 +652,18 @@ button:focus {
     padding-top: 5px; }
 
   #nope {
-    padding: 15px 50px; } }
+    padding: 15px 50px; }
+
+  #dollars {
+    font-size: 60px; }
+
+  q {
+    font-size: 14px;
+    line-height: 16px; }
+
+  .quoter {
+    padding-top: 10px;
+    font-size: 14px; } }
 @media (max-width: 320px) {
   .squares {
     width: 30px;
@@ -800,7 +859,7 @@ input[type=radio] {
     padding-left: 15px; } }
 footer {
   background: #f9f9f9;
-  padding: 40px 75px; }
+  padding: 30px 75px; }
 
 footer h6 {
   font-size: 18px;
