@@ -60,7 +60,8 @@ body {
 
 #home-page-body {
   padding-top: 0;
-  background: #fff; }
+  background: #fff;
+  padding-bottom: 0; }
 
 section {
   padding-top: 15px; }
